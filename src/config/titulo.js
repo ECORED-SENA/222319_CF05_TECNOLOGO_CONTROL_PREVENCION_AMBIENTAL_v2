@@ -1,1 +1,1 @@
-module.exports = 'NOMBRE DEL COMPONENTE FORMATIVO'
+module.exports = 'Medición de ruidos y concentración de olor según normatividad'
