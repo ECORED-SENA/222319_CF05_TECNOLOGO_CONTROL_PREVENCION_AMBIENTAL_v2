@@ -147,7 +147,7 @@ export default {
       referencia:
         'ABAKCALCULADORAS (2010, noviembre 12). Medición de caudal con calculadora y molinete UTS. [Archivo de video]. Youtube',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=OL6BRmN4UH0',
+      link: 'https://www.youtube.com/watch?v=77sTYR3sX5E',
     },
     {
       tema: 'Medición de presión sonora y olores',
@@ -290,6 +290,12 @@ export default {
       referencia:
         'ICONTEC GTC45. (2012). <em>Guía para la identificación de los peligros y la valoración de los riesgos en seguridad y salud ocupacional. </em>',
       link:
+        'https://repository.udistrital.edu.co/bitstream/handle/11349/6034/ParraCuestaDianaMarcelaVasquezVeraErikaVanessa2016-AnexoA.pdf;jsessionid=BEE718D718155795C84987947FF4B2D6?sequence=2',
+    },
+    {
+      referencia:
+        'ICONTEC G100. (2004). Calidad de Agua. Guía para los procedimientos de cadena de custodias de muestras.',
+      link:
         'https://www.emcali.com.co/documents/148832/171808/08.GTC+100+de+2004.pdf/6fe392c5-8bed-2704-843b-54bd9ede7952?t=1532524188754&download=true#:~:text=cadena%20de%20custodia%20de%20muestra,toma%20hasta%20que%20se%20desecha.',
     },
     {
@@ -421,7 +427,7 @@ export default {
         {
           nombre: 'Gloria Esperanza Ortiz Russi',
           cargo: 'Diseñador Instruccional',
-          centro: 'Centro de Diseño y Metrología – Regional Distrito Capital',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
         {
           nombre: 'Natalia Andrea Bueno Pizarro',
@@ -433,6 +439,24 @@ export default {
     {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
+        {
+          nombre: 'Carmen Alicia Martínez Torres',
+          cargo: 'Animador y Productor Multimedia',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Wilson Andrés Arenales Cáceres',
+          cargo: 'Storyboard e ilustración',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Camilo Andrés Bolaño Rey',
+          cargo: 'Locución',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
         {
           nombre: 'Blanca Flor Tinoco Torres',
           cargo: 'Diseñador web',
@@ -446,8 +470,8 @@ export default {
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: ' ',
-          cargo: 'Animador y Producción audiovisual',
+          nombre: 'Emilsen Alfonso Bautista',
+          cargo: 'Actividad didáctica',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },

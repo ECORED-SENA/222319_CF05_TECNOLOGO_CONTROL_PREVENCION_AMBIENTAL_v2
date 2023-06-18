@@ -15,7 +15,7 @@
           p.mb-4(data-aos="fade") Antes de profundizar en los equipos de medición se hace necesario definir algunos conceptos básicos y relevantes que se emplean en las toma de muestras de ruido.
           
           .col-md-3.mb-4.px-md-0(data-aos="fade-right")
-            img(src='@/assets/curso/temas/tema2/img.png' alt='Imagen decorativa')
+            img(src='@/assets/curso/temas/tema2/img.png' alt='')
           .col-md-7.mb-4.px-md-0(data-aos="fade-left")
             SlyderE.bg-white.box-shadow.p-4.px-md-5(indicadores="derecha")
               .row
@@ -35,25 +35,26 @@
                 p Unidad logarítmica de medida utilizada en diferentes disciplinas de la ciencia usada para comparar una cantidad con otra llamada de referencia. Adicionalmente este concepto que en ocasiones se puede tomar un valor medio aproximado. En Acústica la mayoría de las veces el decibelio se utiliza para comparar la presión sonora, en el aire, con una presión de referencia. (Construmatica, 2010)
               .row
                 h5 Pascal (Pa)   
-                p La presión atmosférica es la presión del aire ambiental en ausencia de sonido y este se mide en una unidad denominada Pascal. 1 Pascal es igual a una fuerza de 1 newton actuando sobre una superficie de 1 metro cuadrado, y se abrevia 1 (Pa) Factor de Conversión Pa a dB.
+                p La presión atmosférica es la presión del aire ambiental en ausencia de sonido y este se mide en una unidad denominada Pascal. 1 Pascal es igual a una fuerza de 1 newton actuando sobre una superficie de 1 metro cuadrado, y se abrevia 1 (Pa).
+                p.fw-bold.mb-0 Factor de Conversión Pa a dB.
                 p.mb-0 #[b 1(Pa)] = 93.979 (dB)
                 p #[b 1(dB)] = 0.00002244037 (Pa) = 2.244X100<sup>-5</sup> (Pa)
               .row
                 h5 Logaritmo    
                 p Un logaritmo expresa potenciación, es decir, indica el exponente por el cual se debe elevar la base para obtener la potencia indicada, matemáticamente se puede expresar de la siguiente manera: 
-                p El logaritmo en base 
-                  b b
-                  | de un número
+                p El logaritmo en base  
+                  b b 
+                  | de un número 
                   b a&gt;
                   | 0 se representa por 
-                  b log<sub>b</sub>(a)
+                  b log<sub>b</sub>(a) 
                   | y es el número c que cumple 
-                  b b<sup>c</sup>=a
+                  b b<sup>c</sup>=a 
                 p.fw-bold log<sub>b</sub>(a) = c <=&gt; b<sup>c</sup> = a
               .row
                 h5 Suma de logaritmos    
                 p El logaritmo del producto de dos números positivos es igual a la suma de los logaritmos de dichos números. Esto es:
-                p.fw-bold log(a . b) = log(a) - log (b)
+                p.fw-bold log(a . b) = log(a) + log (b)
               .row
                 h5 Resta de logaritmos    
                 p El logaritmo del cociente de dos números positivos es igual al logaritmo del numerador menos el logaritmo del denominador. Esto es:
@@ -84,7 +85,7 @@
                 h5 Moda   
                 p Es el valor de la observación o elemento que tiene la mayor frecuencia.
                 .row.justify-content-center 
-                  .col-md-6
+                  .col-md-4
                     img(src='@/assets/curso/temas/tema2/form2.png', alt='Fórmula Moda')
 
     
@@ -94,7 +95,7 @@
     .tarjeta.bg-yellow.border-yellow.p-4.mb-5(data-aos="fade-down") 
       .row.justify-content-evenly.align-items-center
         .col-md-4.mb-4.col-8
-          img(src='@/assets/curso/temas/tema2/img2.svg' alt='Imagen decorativa') 
+          img(src='@/assets/curso/temas/tema2/img2.svg' alt='') 
         .col-md-6
           p En un grupo de estudio se evaluaron a 11 aprendices de los cuales 5 eran mujeres y 6 eran hombres, los resultados de sus notas finales fueron los siguientes (60,85,70,60,75,85,90,60,85,70,85) 
           p ¿Cuál es el resultado de las notas #[b promedio, mediana y la moda], del grupo de estudio?
@@ -116,9 +117,13 @@
     TabsA.tema5.color-acento-botones(data-aos="fade-down") 
       .tarjeta.bg-green.p-4.p-md-5(titulo="Meteorología")
         h5 Meteorología
-        p.mb-0 Es el estudio de la atmósfera y sus fenómenos – especialmente las condiciones del tiempo y del clima – y las aplicaciones prácticas de este estudio. Además de la física, la química y la dinámica de la atmósfera, la meteorología abarca muchos de los efectos directos de la atmósfera en la superficie de la Tierra, los océanos y vida en general. (Organización Meteorológica Mundial, 2001)
-      .tarjeta.bg-green.p-4.p-md-5(titulo="Estructuración")
-        h5 Estructuración
+        .row
+          .col-md-8
+            p.mb-0 Es el estudio de la atmósfera y sus fenómenos – especialmente las condiciones del tiempo y del clima – y las aplicaciones prácticas de este estudio. Además de la física, la química y la dinámica de la atmósfera, la meteorología abarca muchos de los efectos directos de la atmósfera en la superficie de la Tierra, los océanos y vida en general. (Organización Meteorológica Mundial, 2001)
+          .col-md-4
+            img(src='@/assets/curso/temas/tema2/Meteorologia.png' alt='Meteorología') 
+      .tarjeta.bg-green.p-4.p-md-5(titulo="Atmosféra")
+        h5 Atmosféra
         p.mb-0 Envoltura gaseosa que rodea la Tierra. Capa gaseosa que rodea nuestro planeta. Además de contener el aire, incluye partículas sólidas y líquidas en suspensión o aerosoles y nubes.
       .tarjeta.bg-green.p-4.p-md-5(titulo="Presión atmosférica")
         h5 Presión atmosférica
@@ -141,24 +146,94 @@
               h5.text-center.mb-0 1013,25 mb /hpa
 
         p.mb-4 La unidad de medida de la Presión atmosférica se establece en diferentes unidades dependiendo el sistema unidades empleado, algunas de las equivalencias más utilizadas se encuentran:
-        .row 
-          .col-md-9
-            img(src='@/assets/curso/temas/tema2/tabla.png' alt='Equivalencias entre unidades de presión') 
-          .col-md-3
-            p.mb-0 #[b Equivalencias ]
-            p.mb-0 1 atm ≈ 101325 Pa2 
-            p.mb-0 1 atm = 1,01325 bar 
-            p.mb-0 1 atm = 760 mmHg = 760 Torr 
-            p.mb-0 1 atm = 14,696 PSI
+        
+        .tabla-a.tema5.color-secundario.mb-4
+          table
+            thead
+              tr.bg-secundario
+                th(colspan="7") Equivalencias entre unidades de presión
+              tr
+                th.fw-bold Unidad
+                th atm
+                th bar
+                th kg/cm<sup>2</sup>
+                th mca 
+                th PSI 
+                th kPa (SI)
+            tbody.bg-white
+              tr
+                td 1 atmósfera
+                td.text-center.bg-gray 1
+                td.text-center 1,013
+                td.text-center 1,033 
+                td.text-center 10,333 
+                td.text-center 14,696 
+                td.text-center 101,325   
+              tr
+                td 1 bar
+                td.text-center 0,987
+                td.text-center.bg-gray 1
+                td.text-center 1,020
+                td.text-center 10,197
+                td.text-center 14,504
+                td.text-center 100  
+              tr
+                td 1 kg/cm<sup>2</sup>
+                td.text-center 0,968
+                td.text-center 0,981
+                td.text-center.bg-gray 1
+                td.text-center 10
+                td.text-center 14,223
+                td.text-center 98,067
+              tr
+                td 1 metro columna de agua
+                td.text-center 0,097
+                td.text-center 0,098
+                td.text-center 0,100
+                td.text-center.bg-gray 1
+                td.text-center 1,422
+                td.text-center 9,806
+              tr
+                td 1 Libra por pulgada cuadrada
+                td.text-center 0,068
+                td.text-center 0,069
+                td.text-center 0,070
+                td.text-center 0,703
+                td.text-center.bg-gray 1
+                td.text-center 6,985
+              tr
+                td 1 Kilopascal (SI)
+                td.text-center 0,010
+                td.text-center 0,010
+                td.text-center 0,010
+                td.text-center 0,102
+                td.text-center 0,145
+                td.text-center.bg-gray 1
+              tr
+                td(colspan="7").py-4 Dado que la diferencia entre algunas unidades es tan pequeña, a efectos prácticos, en fontanería doméstica se mantiene que:
+                  p.mb-0.fw-bold.t-green2.text-center 1 atm = 1bar = 1Kg/cm<sup>2</sup> = 10mca = 100KPa
+
+
+        p.mb-0 #[b Equivalencias ]
+        p.mb-0 1 atm ≈ 101325 Pa2 
+        p.mb-0 1 atm = 1,01325 bar 
+        p.mb-0 1 atm = 760 mmHg = 760 Torr 
+        p.mb-0 1 atm = 14,696 PSI
 
       .tarjeta.bg-green.p-4.p-md-5(titulo="Temperatura")
         h5 Temperatura
         p Magnitud física que caracteriza el movimiento aleatorio media de las moléculas en un cuerpo físico. Entonces se puede decir que entre más movimiento de las moléculas mayor es la temperatura que se genera en el elemento, sustancia o cuerpo. 
-        p.mb-0 La unidad con la que se determina la temperatura se establece en diferentes unidades dependiendo el sistema unidades empleado, algunas de las equivalencias más utilizadas son las que aparecen en la imagen.
+        p La unidad con la que se determina la temperatura se establece en diferentes unidades dependiendo el sistema unidades empleado, algunas de las equivalencias más utilizadas son las que aparecen en la imagen.
+        .row.justify-content-center
+          .col-md-8
+            img(src='@/assets/curso/temas/tema2/temperatura.svg' alt='Temperatura')
       .tarjeta.bg-green.p-4.p-md-5(titulo="Velocidad del viento")
         h5 Velocidad del viento
         p Relación entre la distancia recorrida por el aire y el tiempo que tarda en recorrerla. La “velocidad instantánea” o, con mayor brevedad, la “velocidad”, corresponde al caso de un intervalo de tiempo infinitamente pequeño. La “velocidad media” corresponde al caso en que el intervalo de tiempo es finito.
-        p.mb-0 La velocidad del viento mide la componente horizontal del desplazamiento del aire en un punto y en un instante determinados. La unidad de medida es habitualmente metros por segundo (m/s)
+        p La velocidad del viento mide la componente horizontal del desplazamiento del aire en un punto y en un instante determinados. La unidad de medida es habitualmente metros por segundo (m/s).
+        .row.justify-content-center
+          .col-md-9
+            img(src='@/assets/curso/temas/tema2/vel-viento.png' alt='Velocidad del viento') 
       .tarjeta.bg-green.p-4.p-md-5(titulo="Dirección del viento")
         h5 Dirección del viento
         p.mb-0 Dirección desde la que sopla el viento. Uno de los elementos que referencia la dirección del viento es una rosa de los vientos este grafico un símbolo en forma de círculo que tiene marcado alrededor los rumbos en que se divide la circunferencia del horizonte, y que serían sur, este, norte y oeste.
@@ -187,23 +262,26 @@
                         span Descargar
                         i.fas.fa-file-download
 
-          p.mb-4(data-aos="fade") Ahora bien, el cálculo de de la escala de un mapa se realiza mediante este procedimiento.
+          p.mb-4(data-aos="fade") Ahora bien, el cálculo de la escala de un mapa se realiza mediante este procedimiento.
 
           .col-md-3.mb-4.mb-md-0(data-aos="fade-right")
-            img(src='@/assets/curso/temas/tema2/img3.png' alt='Imagen decorativa')
+            img(src='@/assets/curso/temas/tema2/img3.png' alt='')
           .col-md-9(data-aos="fade-left")
-            p 
-              b.t-green2 a. 
-              | Seleccionar dos puntos prominentes en el mapa y mida la distancia.
-            p 
-              b.t-green2 b. 
-              | Determinar la escala del mapa o plano sabiendo que: Escala= a la distancia en el terreno (m) entre distancia en el mapa (mm)
+            ol.lista-ol.fa-ul
+              li 
+                span.text-bold.t-green2 a. 
+                | Seleccionar dos puntos prominentes en el mapa y mida la distancia.
+            ol.lista-ol.fa-ul
+              li 
+                span.text-bold.t-green2 b. 
+                | Determinar la escala del mapa o plano sabiendo que: Escala= a la distancia en el terreno (m) entre distancia en el mapa (mm).
             p.ps-3.ps-md-5 Ej: 
               b.t-green2 Escala 
               | = 1 / 1000.000 y por lo tanto la escala del mapa es 1:1000 000.
-            p 
-              b.t-green2 c. 
-              | Por medio de un simple proceso matemático (Regla de 3) podremos saber la distancia real
+            ol.lista-ol.fa-ul
+              li 
+                span.text-bold.t-green2  c. 
+                | Por medio de un simple proceso matemático (Regla de 3) podremos saber la distancia real.
               p.ps-3.ps-md-5.mb-0 1 unidad de medición 
                 b.t-green2 ——————— &gt; 
                 | 1.000.000
@@ -211,28 +289,37 @@
                 b.t-green2 ——————— &gt; 
                 | X
               p.ps-3.ps-md-5.text-small (Con misma unidad de medida) 
-            p 
-              b.t-green2 d. 
-              | Establecer la (Regla de 3) Despejamos la incógnita (X)
-
+            ol.lista-ol.fa-ul
+              li 
+                span.text-bold.t-green2 d. 
+                | Establecer la (Regla de 3) Despejamos la incógnita (X)
+              .row.ps-md-5
+                .col-md-5
+                  img(src='@/assets/curso/temas/tema2/form-new.svg' alt='')
 
     p.mb-4(data-aos="fade") Con base en lo anterior, se sugiere realizar un ejercicio.
 
     .row.mb-5
       .col-md-9.mb-4.mb-md-0(data-aos="fade-right")
-        p Si se tiene un mapa de Bogotá con escala de 1/1000.000 y se desea saber la distancia real entre dos puntos geográficos A (norte) y B (Sur), al medir esta distancia en el plano corresponde a (5cm) , el proceso para calcular dicha distancia sería el siguiente:
+        p Si se tiene un mapa de Bogotá con escala de 
+          b 1/1000.000 
+          | y se desea saber la distancia real entre dos puntos geográficos A (norte) y B (Sur), al medir esta distancia en el plano corresponde a (5cm) , el proceso para calcular dicha distancia sería el siguiente:
         p 
           b.t-green2 a. 
           | Plantear la regla de 3:
-          p.ps-3.mb-0 1 cm ——————— &gt; 1.000.000
-          p.ps-3.mb-0 5 cm ——————— &gt; X
+          p.ps-3.mb-0 1 cm 
+            b.t-green2 ——————— &gt; 
+            | 1.000.000
+          p.ps-3.mb-0 5 cm 
+            b.t-green2 ——————— &gt; 
+            | X
         p 
           b.t-green2 b.  
           | Despejar la incógnita es decir la distancia real y sustituir los datos:
         .row.ps-3.align-items-center.mb-3
-          .col-1.pe-0
+          .col-2.pe-0
             p.mb-0 x =
-          .col-2.text-center.ps-0
+          .col-8.col-md-3.text-center.ps-0
             .row 
               p.mb-0.sobre-linea 5 cm * 1.000.000
               p.mb-0 1 cm  
@@ -241,23 +328,23 @@
           b.t-green2 c. 
           | Para finalizar pasamos los #[b cm] a #[b km], entonces si se sabe que un 1km equivale a 100.000cm entonces:
         .row.justify-content-center.align-items-center.mb-4
-          .col-2.pe-0
+          .col-4.col-md-2.pe-0
             p.mb-0 5.000.000 <del>cm</del> *
-          .col-2.text-center.ps-0
+          .col-5.col-md-2.text-center.ps-0
             .row 
               p.mb-0.sobre-linea 1 km 
               p.mb-0 100.000 <del>cm</del>
-          .col-1.text-center.ps-0   
+          .col-3.col-md-1.text-center.ps-0   
             p.mb-0 = 50 km
         .bg-green7.p-4 
           p.mb-0 Entonces gracias a la distancia medida sobre el mapa y la escala en el plano se logra hallar la distancia real, la cual sería de 50 Kilómetros para poder desplazarse entre el punto A y el Punto B en Bogotá.
       .col-md-3.mb-4.mb-md-0(data-aos="fade-left")
-        img(src='@/assets/curso/temas/tema2/img4.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema2/img4.png' alt='')
 
     .bg-primario.tarjeta(data-aos="fade-down")
       .row.align-items-center.p-4.p-md-0
         .col-md-2.col-5.px-md-4
-          img.px-md-4.pt-md-3(src='@/assets/curso/temas/tema2/icono.svg' alt='Icono decorativo')
+          img.px-md-4.pt-md-3(src='@/assets/curso/temas/tema2/icono.svg' alt='')
         .col-md-10.py-4.text-white.pe-md-5
           h5 Planos y cálculos
           p.mb-0 La interpretación de los planos y el cálculo de las escalas en la cartografía es un conocimiento que nos ayuda de diversas maneras. El video «El mundo no es como lo pintan» permite reforzar el proceso de aprendizaje en este tema junto con el video «Mapas y escalas (ejercicios resueltos)». Estos recursos se encuentran en el material de apoyo.
@@ -280,7 +367,7 @@
     AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta bg-green6" data-aos="fade-down")
       .row(titulo="Consideraciones del Plan de Muestreo - Ruido")
         h5 Datos generales
-        ul.lista-ul--color.color-secundario
+        ul.lista-ul--color.color-secundario.fa-ul
           li.mb-0
             i.fas.fa-check
             | Objetivo del muestreo: Definir de manera precisa las metas que se desean cumplir.
@@ -294,7 +381,7 @@
             i.fas.fa-check
             | Localización geográfica del sitio: Para su respectivo mapeo.
         h5 Planeación y procedimiento del muestreo.
-        ul.lista-ul--color.color-secundario
+        ul.lista-ul--color.color-secundario.fa-ul
           li.mb-0
             i.fas.fa-check
             | Tipo de muestreo (Emisión de Ruido / Ruido Ambiental).
@@ -334,7 +421,7 @@
         p Para la realización de un estudio olfatométrico para la medición de olores ofensivos.
         p En esta fase supone el conocimiento previo al detalle de todos aquellos aspectos que pueden verse inmersos en la generación de olores de una actividad o instalación. Este conocimiento previo es fundamental para poder establecer un programa de muestreo que responda a los objetivos planteados en el estudio de impacto ambiental por olores. 
         p Esta información se puede obtener por medio de: 
-        ul.lista-ul--color.color-secundario
+        ul.lista-ul--color.color-secundario.fa-ul
           li.mb-0
             i.fas.fa-check
             | Mediante la realización de una visita de auditoria previa a la instalación objeto de estudio. 
@@ -353,9 +440,9 @@
               .tarjeta.bg-primario.p-4.p-md-5.h-100.text-white
                 .row.mb-4
                   .col-md-3.col-5
-                    img(src='@/assets/curso/temas/tema2/ico1.svg' alt='Icono decorativo')
+                    img(src='@/assets/curso/temas/tema2/ico1.svg' alt='')
                 h5 Geografía y clima: 
-                ul.lista-ul--color.color-secundario
+                ul.lista-ul--color.color-secundario.fa-ul
                   li.mb-1
                     i.fas.fa-check
                     | Límites geográficos de la fuente de emisión. 
@@ -369,9 +456,9 @@
               .tarjeta.bg-primario.p-4.p-md-5.h-100.text-white
                 .row.mb-4
                   .col-md-3.col-5
-                    img(src='@/assets/curso/temas/tema2/ico2.svg' alt='Icono decorativo')
+                    img(src='@/assets/curso/temas/tema2/ico2.svg' alt='')
                 h5 Estructura y tendencias del crecimiento demográfico  
-                ul.lista-ul--color.color-secundario
+                ul.lista-ul--color.color-secundario.fa-ul
                   li.mb-1
                     i.fas.fa-check
                     | Desarrollo urbano y sus actividades socioeconómicas. 
@@ -385,9 +472,9 @@
               .tarjeta.bg-primario.p-4.p-md-5.h-100.text-white
                 .row.mb-4
                   .col-md-3.col-5
-                    img(src='@/assets/curso/temas/tema2/ico3.svg' alt='Icono decorativo')
+                    img(src='@/assets/curso/temas/tema2/ico3.svg' alt='')
                 h5 Otra información de importancia:     
-                ul.lista-ul--color.color-secundario
+                ul.lista-ul--color.color-secundario.fa-ul
                   li.mb-1
                     i.fas.fa-check
                     | Cartografía de la zona de estudio
@@ -398,17 +485,17 @@
           p.mb-4(data-aos="fade") Ahora bien, frente a las características de un plan de muestreo se encuentran:
 
           .col-md-4.mb-4.mb-md-0(data-aos="fade-right")
-            img(src='@/assets/curso/temas/tema2/img5.png' alt='Imagen decorativa')
+            img(src='@/assets/curso/temas/tema2/img5.png' alt='')
           .col-md-8.mb-4.mb-md-0(data-aos="fade-left")
             AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta bg-white" data-aos="fade-down")
               .row(titulo="Revisión del esquema de procesos de la instalación objeto de estudio")
-                p La manera más apropiada para la identificación de los focos emisores a muestrear es mediante un esquema básico de procesos de la instalación en el que estén representados, a ser posible, las unidades de proceso a escala. Este esquema de procesos se debe revisar conjuntamente entre el especialista en olfatometría y el técnico o técnicos de la empresa objeto de estudio ya sea durante la visita a las instalaciones o por conversación telefónica, e-mail, etc 
+                p La manera más apropiada para la identificación de los focos emisores a muestrear es mediante un esquema básico de procesos de la instalación en el que estén representados, a ser posible, las unidades de proceso a escala. Este esquema de procesos se debe revisar conjuntamente entre el especialista en olfatometría y el técnico o técnicos de la empresa objeto de estudio ya sea durante la visita a las instalaciones o por conversación telefónica, e-mail, etc.
               .row(titulo="Identificación de los potenciales focos emisores")
                 p Sobre el esquema de procesos se identificarán todos los potenciales focos emisores diferenciando las emisiones de focos puntuales, las emisiones de fuentes difusas y las emisiones fugitivas. 
                 p En el caso de fuentes puntuales, se recabará información de caudales aproximados de emisión. Para las fuentes de emisión de tipo difuso se solicitará el dato de las superficies implicadas. 
               .row(titulo="Procesos con emisiones discontinuas o no homogéneas")
                 p Es importante definir la selección de las siguientes variables
-                ul.lista-ul--color.color-secundario
+                ul.lista-ul--color.color-secundario.fa-ul
                   li.mb-0
                     i.fas.fa-check
                     | Dia. 
@@ -468,7 +555,7 @@
               p El ruido es considerado un contaminante de tipo criterio, en otras palabras, en un factor que afecta la salud de las personas a las que se ven expuestas, cuando los decibeles están por encima de los valores límites permisibles por la normatividad. La percepción del sonido depende del espectro normalizado del ruido a evaluar. En el caso de un adulto joven, en condiciones de salud normales, su rango de audición va desde los 20 Giga Hertz hasta los 20000 giga Hearts; esos valores de presión son ponderados y analizados en frecuencia bajo curva de ponderación con el fin de tener un análisis para la mayoría de las personas.
               h5.mb-0 - (CORPOCALDAS, 2015)
           .col-md-4.mb-4(data-aos="fade-left")
-            img(src='@/assets/curso/temas/tema2/img6.png' alt='Imagen decorativa')
+            img(src='@/assets/curso/temas/tema2/img6.png' alt='')
 
     
     p.text-center.mb-4(data-aos="fade") Se profundiza más en la percepción al conocer cómo funciona el oído humano.
@@ -495,9 +582,9 @@
 
     .row.justify-content-center.mb-4
       .col-md-4.mb-4(data-aos="fade-right")
-        img(src='@/assets/curso/temas/tema2/img7.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema2/img7.png' alt='')
       .col-md-8.mb-4(data-aos="fade-left")
-        ul.lista-ul--color.color-secundario.ps-3.ps-md-4
+        ul.lista-ul--color.color-secundario.ps-3.ps-md-4.fa-ul
           li.mb-0
             i.fas.fa-check
             | Los parámetros permisibles.
@@ -509,9 +596,10 @@
             | Presentación de informes y otras disposiciones.
         .bloque-texto-c.bg-green9.box-shadow.p-4
           i.fas.fa-quote-right
+          h5 Según European acústica (2017) los efectos del ruido refieren que:
           p El ruido generado en los grandes centros urbanos se convierte en un factor que impacta directamente en la comunidad Influye en gran importancia el tráfico, la actividad industrial, comercial, entre otros quienes aportan grandes cantidades de decibeles en un sector determinado. 
           p La medición de los decibeles se convierte en un factor fundamental para determinar las estrategias que se deben implementar en la reducción del mismo, es importante conocer cuáles son las fuentes generadoras de este ruido debido que las actividades industriales y comerciales establecen una serie de aportes en decibeles que afectan directamente a la salud de las personas en la comunidad.
-          h5.mb-0 - Según European acústica (2017) los efectos del ruido refieren que:
+          
 
     p.mb-4(data-aos="fade") Algunas fuentes generadoras se podrían clasificar de la siguiente manera:
 
@@ -522,7 +610,7 @@
             figure
               img(src="@/assets/curso/temas/tema2/tarj-hover.jpg", alt="Fuentes de ruido externas")
             .text.p-md-2.px-md-4.p-3
-              .row.px-1.pt-1.mt-md-4.pt-md-0.mt-lg-3.mt-xl-4
+              .row.px-1.pt-1.mt-md-3.pt-md-0.mt-lg-2.mt-xl-3
                 h5.mt-2.mt-lg-3.mb-3 Fuentes de ruido externas
                 p El rido debido al tráfico rodado, al paso de trenes, al tráfico aéreo, al tráfico marítimo, a las obras públicas, a las actividades industriales, a las actividades urbanas comunitarias y a los agentes atmosféricos.
       .col-md-6.mb-md-0.mb-4.px-md-0
@@ -532,7 +620,7 @@
             figure
               img(src="@/assets/curso/temas/tema2/tarj-hover2.jpg", alt="Fuentes de ruido internas")
             .text.p-md-2.px-md-4.p-3
-              .row.px-1.pt-1.mt-md-4.pt-md-0.mt-lg-3.mt-xl-4
+              .row.px-1.pt-1.mt-md-3.pt-md-0.mt-lg-2.mt-xl-3
                 h5.mt-1.mt-lg-3.mb-3 Fuentes de ruido internas
                 p El ruido debido a las personas, a los impactos, a los aparatos de radio y televisión, a los aparatos electrodomésticos, a las instalaciones de fontanería y calefacción, a los ascensores, a las instalaciones de ventilación y climatización, a las instalaciones eléctricas y a otras fuentes (como animales).
 
@@ -542,18 +630,18 @@
       .col-md-8.mb-4(data-aos="fade-right")
         .bloque-texto-c.bg-green9.box-shadow.p-4
             i.fas.fa-quote-right
+            h5.mb-1.mt-3 Según CORPOCALDAS (2015)
             p Los fallos en el desempeño de la actividad laboral pueden producir accidentes el ruido con decibeles por encima de los 80 db y aumentar el comportamiento agresivo y establecer ciertos problemas mentales debido a la demanda de tranquilizantes y somníferos por la ansiedad y angustia que este puede provocar (p.10).
-            h5.mb-0 - Según CORPOCALDAS (2015)
       .col-md-4.mb-4(data-aos="fade-left")
-        img(src='@/assets/curso/temas/tema2/img8.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema2/img8.png' alt='')
 
 
     .row.justify-content-center.mb-4
       .col-md-4.mb-4(data-aos="fade-right")
-        img(src='@/assets/curso/temas/tema2/img9.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema2/img9.png' alt='')
       .col-md-8.mb-4(data-aos="fade-left")
         p El ruido puede causar otros muchos problemas, pero la principal consecuencia social es el deterioro de la audición, que produce incapacidad de entender una conversación en condiciones normales y que está considerado una desventaja social severa. Los efectos más significativos están los siguientes:
-        ul.lista-ul--color.color-secundario.ps-3.ps-md-4
+        ul.lista-ul--color.color-secundario.ps-3.ps-md-4.fa-ul
           li.mb-0
             i.fas.fa-check
             | Dificultad para la comunicación oral.
@@ -594,7 +682,7 @@
           p.mb-0 El ruido tiene un componente subjetivo, puesto que cualquier sonido puede ser considerado molesto para algunas personas y para otras de pronto no, esto Incide directamente en el receptor del ruido en donde también influye el horario en el que se produce, el tiempo exposición y los antecedentes socioculturales del sector con respecto a una determinada actividad que produzca el ruido.
         p Es importante diferenciar que la medición del ruido que se va a realizar debe establecer un alcance, puesto que el Ruido Ambiental se mide teniendo en cuenta un área determinada por su impacto (Parques, Zonas Residenciales, Hospitales, entre otros), en cambio la medición por Emisión de Ruido se mide siempre y cuando está relacionada con la generación de ruido que puede generar una empresa o proyecto.
       .col-md-4.mb-4(data-aos="fade-left")
-        img(src='@/assets/curso/temas/tema2/img10.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema2/img10.png' alt='')
 
     p.mb-4(data-aos="fade") Para este caso la medición por emisión de ruido se aplica directamente a las fuentes industriales dicha medición se debe establecer una distancia de 1.5 metros a partir de la fachada o perímetro específico del área a medir en este caso vamos a ver como es el procedimiento para hacer la medición por emisión de ruido, tal como lo presenta el gráfico.
 
@@ -630,7 +718,7 @@
     
           .row.justify-content-center
             .col-md-4.mb-4(data-aos="fade-right")
-              img(src='@/assets/curso/temas/tema2/img11.png' alt='Imagen decorativa')
+              img(src='@/assets/curso/temas/tema2/img11.png' alt='')
             .col-md-8.mb-4(data-aos="fade-left")
               p Ahora bien, luego de las condiciones peviamete descritas, se procede a a realizar las mediciones. El equipo debe estar colocado fijamente sobre un trípode a una altura de 1.2 mts a partir del nivel mínimo donde se encuentre la fuente instalada a una distancia de 1.5 mts de la fachada o cerramiento perimetral de la empresa, proyecto o fuente emisora de ruido.
               p Con el fin de prevenir posibles errores durante la medición el sonómetro debe estar orientado con la pantalla anti-viento hacia la dirección de la fuente específica, según sea el caso únicamente debe estar el técnico que realiza las mediciones, entre más personas que estén presentes en el sitio de medición y más aún cerca al sonómetro, se podría presentar fenómenos como el apantallamiento, que influye negativamente en la recepción de la información por parte del sonómetro.
@@ -648,7 +736,7 @@
 
     .row.justify-content-center.mb-4
       .col-md-4.mb-4(data-aos="fade-right")
-        img(src='@/assets/curso/temas/tema2/img12.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema2/img12.png' alt='')
       .col-md-8.mb-4(data-aos="fade-left")
         p También, se deben realizar por punto, dos procesos de medición de una hora de captura de información o a intervalos de 15 minutos (Una medición con la fuente de emisión operando en su máximo nivel de producción o de emisión de ruido y una Medición (con la fuente de emisión en condiciones neutras de operación o mejor dicho sin la emisión de ruido generado). Todo esto, con el fin de determinar el ruido residual.
         .bg-degrade-green.tarjeta.p-4
@@ -665,7 +753,7 @@
     .row.justify-content-center.align-items-center
       .col-md-8.mb-4(data-aos="fade-right")
         p Teniendo en cuenta la información anterior, se puede indicar que los principales parámetros para la medición de la emisión de ruido son:
-        ul.lista-ul--color.color-secundario.ps-3.ps-md-4
+        ul.lista-ul--color.color-secundario.ps-3.ps-md-4.fa-ul
           li.mb-0
             i.fas.fa-check
             | Nivel de presión sonora continuo equivalente con filtro de ponderación A, LAeq,T y respuesta lenta (S).
@@ -681,7 +769,7 @@
           h5.mb-0 - (Universidad de Medellín, 2011) 
         p Cuando se va a realizar la medición se debe establecer unos tiempos o intervalos que permitan tomar muestras características representativas de acuerdo con lo establecido en la Resolución 627de 2006 el tiempo máximo es de una (1) hora de captura información con 15 minutos como mínimo con el fin de evitar incurrir en mediciones cortas que generarían baja representatividad. Si las condiciones para medir en esos tiempos no se dan la duración de cada intervalo de tiempo de medición no podrá ser inferior a 5 minutos.     
       .col-md-4.mb-4(data-aos="fade-left")
-        img(src='@/assets/curso/temas/tema2/img13.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema2/img13.png' alt='')
 
 
     p.mb-4(data-aos="fade") Es tiempo de profundizar en los cálculos.
@@ -716,18 +804,18 @@
 
     .row.justify-content-center.mb-4
       .col-md-3.mb-4(data-aos="fade-right")
-        img(src='@/assets/curso/temas/tema2/img14.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema2/img14.png' alt='')
       .col-md-9.mb-4(data-aos="fade-left")
         .bg-primario.tarjeta.mb-4(data-aos="fade-down")
           .row.p-4.pt-0.p-md-0
             .col-md-2.col-5
-              img.ps-md-4.pt-0(src='@/assets/curso/temas/tema2/importante.png' alt='Icono decorativo')
+              img.ps-md-4.pt-0(src='@/assets/curso/temas/tema2/importante.png' alt='')
             .col-md-10.py-4.text-white.pe-md-5
               h5 ¡Para tener en cuenta!
               p Si la diferencia aritmética entre LRaeq,1h y LRaeq,1h, Residual es igual o inferior a 3 dB(A), se deberá indicar que el nivel de emisión de ruido es del orden igual o inferior al ruido residual (LRaeq,1h, Residual). En este caso se considera que el nivel de ruido residual es demasiado alto para establecer claramente cuál es la contribución de la fuente. 
               p.mb-0 Esto no implica que la fuente de emisión de ruido objeto de estudio esté exenta del cumplimento de la norma, sino que se debe realizar un estudio exhaustivo de la fuente y su entorno, debido a la incertidumbre tan alta de la medición, para poder determinar apropiadamente la emisión de ruido.
         p Cuando se finaliza el muestreo y una vez recogido los datos por punto, teniendo en cuenta que deben cuantificar una hora por punto medición, se debe realizar una calibración final empleando el pistófono; esto permite verificar que la medición cumpla con las condiciones de fiabilidad presentes durante la medición.
-        p Los datos recolectados se deben registrar en las hojas de campo y adicional bajar los datos con el software integrado en el sonómetro a una hoja de cálculo, dando así la confirmación de los datos tanto en físico como en digital para posteriormente realizar los respectivos informes de campo
+        p Los datos recolectados se deben registrar en las hojas de campo y adicional bajar los datos con el software integrado en el sonómetro a una hoja de cálculo, dando así la confirmación de los datos tanto en físico como en digital para posteriormente realizar los respectivos informes de campo.
         p También es importante que durante la medición se debe generar registro fotográfico por cada punto de medición y registrar los datos de la medición del viento en el muestreo que se llevó al lugar.
 
 
@@ -738,7 +826,7 @@
         LineaTiempoD.color-secundario
           p(numero="1" titulo="Condiciones meteorológicas") Antes de emprender una medición para determinar la emisión de ruido, es necesario verificar las condiciones meteorológicas. (verificar la velocidad del viento no debe ser mayor a 3m/s 
           p(numero="2" titulo="Ubicación del sonómetro") El sonómetro se ubica con el micrófono ubicado haca la fuente a 1.5 de la fachada y a 1.20 de altura, separado del operador del equipo a 50 cm para evitar el apantallamiento del sonido. 
-          p(numero="3" titulo="Calibración") Realizar calibración acústica del sonómetro con el pistófono antes de iniciar la medición 
+          p(numero="3" titulo="Calibración") Realizar calibración acústica del sonómetro con el pistófono antes de iniciar la medición.
           p(numero="4" titulo="Condiciones de medición") Las mediciones se realizan con respuesta lenta (S) y con filtros de ponderación frecuencial A y Z (antes lineal) y con respuesta por impulso (I) y con filtro de ponderación frecuencial A. La medición deberá realizarse en el día, horario y condiciones de funcionamiento donde la intensidad de la emisión de ruido sea mayor. 
           p(numero="5" titulo="Proceso de medición") Se deben realizar dos (2) procesos de medición de por lo menos quince (15) minutos de captura de información cada uno; uno con la(s) fuente(s) de emisión de ruido funcionando durante el período de tiempo de mayor emisión o incidencia para determinar el nivel de presión sonora continua (LAeq,1h) y otro sin la(s) fuente(s) funcionando, para determinar el ruido residual, (LRaeq,1h,Residual) 
           p(numero="6" titulo="Ruido residual") El ruido residual (nivel de presión sonora continuo equivalente con filtro de ponderación A, LRaeq,1h, Residual) se mide con la(s) fuente(s) específica(s) ap.ada(s) y en el mismo sitio de la medición anterior, manteniendo invariables los condicionantes del entorno y durante el tiempo y forma.
@@ -746,7 +834,7 @@
           p(numero="8" titulo="Interrupciones") Si durante las mediciones se presentan ruidos ocasionales que no pertenecen a la fuente objeto de evaluación, como por ejemplo sirenas, altavoces, etc., éstos no se deben tener en cuenta. 
           p(numero="9" titulo="Subsector restrictivo") Cuando la emisión de ruido en un sector o subsector trascienda a sectores o subsectores vecinos o inmersos en los estándares máximos permisibles de emisión de ruido son aquellos que corresponden al sector o subsector más restrictivo. 
       .col-md-4.mb-4(data-aos="fade-left")
-        img(src='@/assets/curso/temas/tema2/img15.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema2/img15.png' alt='')
 
     .row.fondo3-tema2-2.align-items-center.py-5.pb-4.mb-4
       .col-lg-12.col-12.px-lg-5.px-4
@@ -754,10 +842,11 @@
 
           .col-md-12
             h3.subt.text-white.mb-4(data-aos="fade") Olores
-            p.mb-4(data-aos="fade") Los olores ofensivos se convierten en un problema medioambiental dependiendo el origen y el tipo de fuente que la generan, de esta manera da origen de numerosas quejas que con fundamento produce molestias a la población en determinada área de influencia. Aún en el caso de que las sustancias olorosas emitidas no posean ningún efecto perjudicial para la salud, las molestias causadas por olores pueden constituir un serio problema que necesita ser evaluado, investigado en sus causas y solucionado para responder a las quejas de la sociedad.
+            p Los olores ofensivos se convierten en un problema medioambiental dependiendo el origen y el tipo de fuente que la generan, de esta manera da origen de numerosas quejas que con fundamento produce molestias a la población en determinada área de influencia. 
+            p.mb-4(data-aos="fade") Aún en el caso de que las sustancias olorosas emitidas no posean ningún efecto perjudicial para la salud, las molestias causadas por olores pueden constituir un serio problema que necesita ser evaluado, investigado en sus causas y solucionado para responder a las quejas de la sociedad.
           
           .col-md-4.mb-4(data-aos="fade-right")
-            img(src='@/assets/curso/temas/tema2/img16.png' alt='Imagen decorativa')
+            img(src='@/assets/curso/temas/tema2/img16.png' alt='')
           .col-md-8.mb-4(data-aos="fade-left")
             p En esta sección se desarrollarán los conceptos generales de los olores ofensivos medición del contaminante y la normatividad asociada para la vigilancia y control de este parámetro contaminante de acuerdo con lo establecido en la Resolución 1541 de 2013 en Colombia
             .bg-blue3.p-4
@@ -800,7 +889,7 @@
 
     .row.justify-content-center.mb-4
       .col-md-3.mb-4(data-aos="fade-right")
-        img(src='@/assets/curso/temas/tema2/img17.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema2/img17.png' alt='')
       .col-md-9.mb-4(data-aos="fade-left")
         .tarjeta.bg-degrade-green.p-3.mb-4
           .row.justify-content-around.align-items-center
@@ -817,7 +906,7 @@
                     i.fas.fa-file-download
         p Tal es la importancia que el control y seguimiento tiene en la actualidad los olores ofensivos, que en Colombia se implementó la Resolución No. 1541/2013 por el Ministerio de Ambiente y Desarrollo Sostenible, por la cual se establecen los límites permisibles de calidad del aire o de inmisión como el procedimiento para la evaluación de actividades que generan olores ofensivos y se dictan otras disposiciones.
         p En esta norma encontraremos:
-        ul.lista-ul--color.color-secundario
+        ul.lista-ul--color.color-secundario.fa-ul
           li.mb-0
             i.fas.fa-check
             | La reglamentación para la recepción de quejas.
@@ -830,25 +919,26 @@
 
     p.mb-4(data-aos="fade") La percepción de los olores y las molestias que ellos generan dependen del sitio y la ubicación de las diversas fuentes que pueden ser considerados generadores olores, como criaderos de animales, plantas de tratamiento de aguas residuales, rellenos sanitarios entre otras. Con respecto al origen de los olores, en los diversos procesos, se podrían clasificar en dos tipos:
     
-    ul.lista-ul--color.color-secundario.ps-3.ps-md-4
+    ul.lista-ul--color.color-secundario.ps-3.ps-md-4.fa-ul
       li.mb-0
         i.fas.fa-check
-        | #[b Fuentes puntuales:] las chimeneas, conductos, salidas de ventilación.
+        span #[b Fuentes puntuales:] las chimeneas, conductos, salidas de ventilación.
       li.mb-0
         i.fas.fa-check
-        | #[b Fuentes difusas:] generalmente son superficies solidas o liquidas, tales como pozos de secado de lodos, plantas de compostaje, vertederos, piscinas, biofiltros, entre otros. 
+        span #[b Fuentes difusas:] generalmente son superficies solidas o liquidas, tales como pozos de secado de lodos, plantas de compostaje, vertederos, piscinas, biofiltros, entre otros. 
 
     .row.justify-content-center.mb-4
       .col-md-9.mb-4(data-aos="fade-right")
         .bg-primario.tarjeta.mb-4
           .row.p-4.pt-0.p-md-0
             .col-md-2.col-5
-              img.ps-md-4.pt-0(src='@/assets/curso/temas/tema2/olores.svg' alt='Icono decorativo')
+              img.ps-md-4.pt-0(src='@/assets/curso/temas/tema2/olores.svg' alt='')
             .col-md-10.py-4.text-white.pe-md-5
               h5 Olores ofensivos
-              p.mb-0 Es importante no solamente conocer las actividades de generan los olores sino también, identificar cuáles son las sustancias que lo producen, estas sustancias se pueden encontrar en la corriente de aire en forma gaseosa o líquida, también en los recursos hídricos y en el suelo. Se sugiere revisar la tabla de sustancias de olores ofensivos por actividad que se encuentra en la Resolución 1541 de 2013; recurso que se encuentra en el material de apoyo. A nivel internacional se han clasificado actividades como las principales generadoras de olores ofensivos y por esta razón se explica particularmente su incidencia en la generación de olores ofensivos, que se visualizan en la tabla de aspectos ambientales de las sustancias asociadas a olores ofensivos en el Lineamiento de Vigilancia Ambiental, 2012, p.24; recurso que se encuentra en el material de apoyo. 
+              p.mb-0 Es importante no solamente conocer las actividades de generan los olores sino también, identificar cuáles son las sustancias que lo producen, estas sustancias se pueden encontrar en la corriente de aire en forma gaseosa o líquida, también en los recursos hídricos y en el suelo. Se sugiere revisar la tabla de sustancias de olores ofensivos por actividad que se encuentra en la Resolución 1541 de 2013; recurso que se encuentra en el material de apoyo. 
+              p.mb-0 A nivel internacional se han clasificado actividades como las principales generadoras de olores ofensivos y por esta razón se explica particularmente su incidencia en la generación de olores ofensivos, que se visualizan en la tabla de aspectos ambientales de las sustancias asociadas a olores ofensivos en el Lineamiento de Vigilancia Ambiental, 2012, p.24; recurso que se encuentra en el material de apoyo. 
       .col-md-3.mb-4(data-aos="fade-left")
-        img(src='@/assets/curso/temas/tema2/img18.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema2/img18.png' alt='')
         
 
     p.mb-4(data-aos="fade") Se muestran a continuación algunas fuentes generadoras de olores.
@@ -858,32 +948,32 @@
         .col-md-7
           p Las plantas de tratamiento de agua residual (PTAR) que tenga fallas en su diseño u operación, sea de tipo físico, químico o biológico, puede generar malos olores. El medio anaerobio es el más susceptible a esta situación, debido al metabolismo de las bacterias sulfato-reductoras, especialmente si en el agua residual existen altas concentraciones de sulfatos y sulfuros. (Ministerio de Salud, 2012 p. 24)
         .col-md-5
-          img(src='@/assets/curso/temas/tema2/acord-img1.png' alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema2/acord-img1.png' alt='')
       .row.px-md-2(titulo="Rellenos sanitarios")
         .col-md-7
           p Desde la aparición de las ciudades han existido problemas de salud pública por la generación de residuos, Los olores ofensivos provenientes de los rellenos sanitarios generalmente ocurren por un mal funcionamiento de los biofiltros o prácticas inadecuadas, como reutilización de áreas previamente utilizadas o por descargas incontroladas de residuos. Esta percepción de los malos olores no es permanente, sino que su presencia está asociada a las condiciones del clima y a la dirección de los vientos, siendo las horas nocturnas y los días cálidos que siguen a las lluvias, cuando los olores son más intensos. (Ministerio de Salud, 2012 p.28)
         .col-md-5
-          img(src='@/assets/curso/temas/tema2/acord-img2.png' alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema2/acord-img2.png' alt='')
       .row.px-md-2(titulo="Curtido de cuero")
         .col-md-7
           p Las industrias de curtido y acabado de cueros, tradicionalmente han aparecido ante el mundo como algunas de las más sucias y contaminantes debido al proceso para que este producto tenga el terminado que conocemos comercialmente. Como consecuencia, el agua residual de la industria de curtido tiene altas concentraciones de materia orgánica, compuestos de nitrógeno, sulfuros, sólidos suspendidos, compuestos de cromo y pHelevado. 
           p La alta carga de materia orgánica provoca la creación de condiciones anaerobias en cuerpos o cursos de agua, debido al elevado consumo de oxígeno disuelto. Estas condiciones, además de afectar la vida acuática, favorecen la producción de algunos gases nocivos como ácido sulfhídrico y metano, indicadores cualitativos para la generacion de olores ofensivos de muy mal carácter. (Ministerio de Salud, 2012 p. 30)
           p Generalmente los malos olores provienen de un inadecuado control en las diferentes actividades, las mas significativas son: el pelambre, descarne, la limpieza de equipos y recipientes y el vertimiento de efluentes líquidos y sólidos a los cursos de agua.
         .col-md-5
-          img(src='@/assets/curso/temas/tema2/acord-img3.png' alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema2/acord-img3.png' alt='')
       .row.px-md-2(titulo="Industria petroquímica")
         .col-md-7
           p En la industria petrolera, los yacimientos de crudo contienen contaminantes entre los cuales se encuentra el azufre, el cual al combinarse con moléculas de hidrogeno forma el ácido sulfhídrico, que es liberado de los hidrocarburos en forma de gas al suministrarlescalor. Existen microorganismos anaerobios capaces de utilizar compuestos de azufre, tales como las bacterias sulfato reductoras (BSR) y las bacterias tiosulfato reductoras (BSTR), las cuales utilizan el azufre como aceptores finales de electrones en la oxidación de la materia orgánica, produciendo principalmente ácido sulfhídrico y mercaptanos. (Ministerio de Salud, 2012 p.30).
           p Otro aspecto importante que tiene que ver con la industria petrolera y la contaminación por olores ofensivos son los derrames de petróleo debido a la ocurrencia de accidentes o atentados a la infraestrucctra petrolera en nuestro pais influyendo en la salud de las poblaciones afectadas.
         .col-md-5
-          img(src='@/assets/curso/temas/tema2/acord-img4.png' alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema2/acord-img4.png' alt='')
 
 
     p.mb-4(data-aos="fade") Un olor que en principio es agradable cuando es percibido con tanta intensidad puede convertirse en molesto, es por eso que el concepto de olor ofensivo también se vuelve muy subjetivo, debido a que los olores dependen específicamente de la intensidad o fuerza y de la concentración en aire del compuesto(s) que lo origina.
     
     .row.justify-content-center.mb-2
       .col-md-5.mb-4(data-aos="fade-right")
-        img(src='@/assets/curso/temas/tema2/img19.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema2/img19.png' alt='')
       .col-md-7.mb-4(data-aos="fade-left")
         .bg-blue3.p-4.mb-4
           p Así como el ruido, las vibraciones y la luz, el olor es considerado un estresor ambiental. Según la Organización Mundial de la Salud (OMS) “La salud es un estado de completo bienestar físico, mental y social, y no solamente la ausencia de afecciones o enfermedades”. Así la molestia por olor afecta la calidad de vida de las personas.
@@ -897,14 +987,14 @@
     .row.mb-5
       .col-md-6.bg-green.tarj-btn.p-md-5.p-4.mb-4.mb-md-0
         .h-100
-          img.mb-md-5.mb-4(src='@/assets/curso/temas/tema2/ico4.svg' alt='Imagen decorativa' style="width: 65px;")
+          img.mb-md-5.mb-4(src='@/assets/curso/temas/tema2/ico4.svg' alt='' style="width: 65px;")
           h5 Las técnicas sensoriales 
           p Se basan en la percepción de los olores por el olfato humano. También incluyen la determinación del carácter de un olor (mapeo) y el nivel de agrado o desagrado de un olor (tono hedónico).
       .col-md-6.bg-green10.tarj-btn.p-md-5.p-4.mb-4.mb-md-0
         .h-100
-          img.mb-md-5.mb-4(src='@/assets/curso/temas/tema2/ico5.svg' alt='Imagen decorativa' style="width: 65px;")
+          img.mb-md-5.mb-4(src='@/assets/curso/temas/tema2/ico5.svg' alt='' style="width: 65px;")
           h5 Las técnicas analíticas 
-          p Para caracterización de olores son relativamente fáciles de aplicar e identifican cuantitativamente las especies químicas presentes en un olor. La desventaja de la técnica es que no provee información alguna referente a la molestia que puede generar un olor. Por esta razón, las técnicas analíticas son usadas para definir criterios de diseño de métodos de control de olores
+          p Para caracterización de olores son relativamente fáciles de aplicar e identifican cuantitativamente las especies químicas presentes en un olor. La desventaja de la técnica es que no provee información alguna referente a la molestia que puede generar un olor. Por esta razón, las técnicas analíticas son usadas para definir criterios de diseño de métodos de control de olores.
     
     
     p.mb-4(data-aos="fade") Las siguientes técnicas son las más empleadas en las mediciones de olores ofensivos, de acuerdo con el Ministerio del MinSalud, 2012, pp. 33-35).
@@ -918,7 +1008,7 @@
 
           .tarjeta.bg-yellow.p-3(x="51%" y="6%" numero="+")
             .h5.mb-2 Olfatometría dinámica
-            p.mb-0 En esta técnica Se emplea el olfato humano como medio de captura y sensor de olor de esta manera se establece una metodología para la determinación del olor de una muestra gaseosa usando un panel panelistas como sensores para posteriormente determinar la emisión. El objetivo primordial de un estudio olfatométrico es evaluar si las emisiones de una determinada instalación pueden ser responsables o no de quejas en la población vecina. A esta conclusión se llega con la interpretación de los valores de concentración de inmisión, habitualmente denominados mapas de olores.
+            p.mb-0 En esta técnica se emplea el olfato humano como medio de captura y sensor de olor de esta manera se establece una metodología para la determinación del olor de una muestra gaseosa usando un panel panelistas como sensores para posteriormente determinar la emisión. El objetivo primordial de un estudio olfatométrico es evaluar si las emisiones de una determinada instalación pueden ser responsables o no de quejas en la población vecina. A esta conclusión se llega con la interpretación de los valores de concentración de inmisión, habitualmente denominados mapas de olores.
           .tarjeta.bg-yellow.p-3(x="33%" y="57%" numero="+")
             .h5.mb-2 Nomogramas
             p.mb-0 Los nomogramas son instrumentos gráficos bidimensionales que permiten el cálculo aproximado de una función. Los más sencillos contienen dos ejes. En el eje horizontal se coloca la distancia a la que se estima que existe una determinada concentración o a la que se esperaría que haya molestias por olores y en el eje vertical se introduce el valor de emisión del olor (calculado partiendo de datos reales o estimados).
@@ -930,42 +1020,42 @@
             p.mb-0 Esta herramienta se basa en el estudio de cuatro parámetros: la frecuencia, la duración de la detección, la intensidad y el carácter agradable o desagradable del olor. Sirve para determinar si un olor se puede considerar molestia o no, esta metodología se emplea en los EE. UU.
           .tarjeta.bg-yellow.p-3(x="89%" y="57%" numero="+")
             .h5.mb-2 Narices electrónicas
-            p.mb-0 Son una serie de sensores de distintos materiales metálicos que reaccionan de forma distinta a un mismo componente químico. Cuando una muestra olorosa entra en contacto con estos, se produce una respuesta química que se evalúa de forma conjunta para la totalidad de los sensores. La respuesta se relaciona con la intensidad o concentración del olor a partir de los valores obtenidos por panelistas humanos que trasladan los resultados a una base de datos que queda registrada
+            p.mb-0 Son una serie de sensores de distintos materiales metálicos que reaccionan de forma distinta a un mismo componente químico. Cuando una muestra olorosa entra en contacto con estos, se produce una respuesta química que se evalúa de forma conjunta para la totalidad de los sensores. La respuesta se relaciona con la intensidad o concentración del olor a partir de los valores obtenidos por panelistas humanos que trasladan los resultados a una base de datos que queda registrada.
           .tarjeta.bg-yellow.p-3(x="96%" y="75%" numero="+")
             .h5.mb-2 Espectrómetros infrarrojos
             p.mb-0 En esta técnica se emplean los Espectrómetros, en décadas anteriores se han desarrollado mejores tecnologías para análisis de compuestos químicos, como el espectrómetro Transformador Infrarrojo de Paso Abierto de Fourier (Open-Path Fourier transforminfrared / OP-FTIR), el cual ofrece monitoreo remoto, análisis multicompuestos rápidos y mediciones promedio. Esta técnica ha sido aplicada exitosamente en la identificación de fuentes de emisión.
           .tarjeta.bg-yellow.p-3(x="81%" y="94%" numero="+")
             .h5.mb-2 Modelización
-            p.mb-0 EEs el método más empleado para valorar la contaminación por olores generada por una fuente. Se basa en el uso de modelos matemáticos de dispersión de contaminantes. La modelización permite evaluar el impacto odorífero que una instalación, existente o futura, tiene o tendrá sobre su entorno próximo. A partir de los datos meteorológicos de la zona se puede efectuar la modelización. El resultado del modelo es la obtención de la concentración de olor en inmisión. Esta concentración puede representarse mediante líneas con un mismo valor de concentración de olor: las isodoras
+            p.mb-0 EEs el método más empleado para valorar la contaminación por olores generada por una fuente. Se basa en el uso de modelos matemáticos de dispersión de contaminantes. La modelización permite evaluar el impacto odorífero que una instalación, existente o futura, tiene o tendrá sobre su entorno próximo. A partir de los datos meteorológicos de la zona se puede efectuar la modelización. El resultado del modelo es la obtención de la concentración de olor en inmisión. Esta concentración puede representarse mediante líneas con un mismo valor de concentración de olor: las isodoras.
 
 
 
     .row.justify-content-center.mb-2
       .col-md-4.mb-4(data-aos="fade-right")
-        img(src='@/assets/curso/temas/tema2/img20.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema2/img20.png' alt='')
       .col-md-8.mb-4(data-aos="fade-left")
         .bg-primario.tarjeta.mb-4
           .row.align-items-center.p-4.p-md-0
             .col-md-3.col-5
-              img.pt-md-3.px-md-4(src='@/assets/curso/temas/tema2/icono2.svg' alt='Icono decorativo')
+              img.pt-md-3.px-md-4(src='@/assets/curso/temas/tema2/icono2.svg' alt='')
             .col-md-9.py-4.text-white.pe-md-5
               h5 Formación y emisión de olores
               p.mb-0 Se sugiere revisar el documento audiovisual «Formación y emisión de olores: caracterización y evaluación de impacto» que se encuentra en el material de apoyo, para fortalecer lo hasta ahora aprendido.
         p La evaluación de olores ofensivos a través de métodos sensoriales se basa en la determinación de la concentración del olor por olfatometría dinámica, metodología desarrollada en la NTC 5880 Calidad del Aire. Determinación de la concentración del olor por olfatometría dinámica correspondiente con la Norma Europea EN 13725 estandarizada por el Comité Europeo de Normalización. (MinAmbiente, 2014, p.31)
         p La norma establece un método para la determinación objetiva de la concentración de olor de una muestra gaseosa usando olfatometría dinámica con evaluadores humanos y la velocidad de emisión de olores que emanan de fuentes puntuales y/o fuentes superficiales. La unidad de medida es la unidad de olor europea por metro cúbico: ouE/m3. La concentración de olor se expresa en términos de múltiplos del umbral de detección. En cuanto al campo de aplicación la norma europea, citado en MinAmbiente (2014, p. 31), incluye:
-        ul.lista-ul--color.color-secundario.ps-3.ps-md-4
+        ul.lista-ul--color.color-secundario.ps-3.ps-md-4.fa-ul
           li.mb-1
             i.fas.fa-check
-            | La medida de la concentración másica del umbral de detección de las sustancias olorosas puras en #[b g/m3]
+            span La medida de la concentración másica del umbral de detección de las sustancias olorosas puras en #[b g/m3]
           li.mb-1
             i.fas.fa-check
-            | La medida de la concentración de olor de mezclas de sustancias olorosas en <b>OU<sub>E</sub> /m<sup>3</sup></b>
+            span La medida de la concentración de olor de mezclas de sustancias olorosas en <b>OU<sub>E</sub> /m<sup>3</sup></b>
           li.mb-1
             i.fas.fa-check
-            | La medida de la velocidad de emisión de emisiones olorosas de fuentes puntuales y fuentes superficiales (con y sin un flujo hacia el exterior), incluyendo pre-dilución durante el muestreo.
+            span La medida de la velocidad de emisión de emisiones olorosas de fuentes puntuales y fuentes superficiales (con y sin un flujo hacia el exterior), incluyendo pre-dilución durante el muestreo.
           li.mb-0
             i.fas.fa-check
-            | El muestreo de sustancias olorosas de emisiones de alta humedad y temperatura (hasta 200°C).
+            span El muestreo de sustancias olorosas de emisiones de alta humedad y temperatura (hasta 200°C).
 
     p.mb-4(data-aos="fade") Para resumir los métodos aplicables para la medición de mezclas de olores ofensivos, el protocolo de olores ofensivos del MADS (MinAmbiente, 2014), se sintetizan en la siguiente tabla:
 
@@ -985,16 +1075,14 @@
             tbody
               tr
                 td Puntual
-                td NTC 5880
-                td NTC 5880
+                td.text-center NTC 5880
+                td(rowspan="3").text-center NTC 5880
               tr.bg-green7
                 td Difusa
-                td NTC 5880
-                td 
+                td.text-center NTC 5880
               tr
                 td Fugitiva 
-                td NTC 6012
-                td
+                td.text-center NTC 6012
 
 
     p.mb-4(data-aos="fade") Ahora bien, la primera actividad a realizar que es considerada de mayor importancia para abordar cualquier problema de malos olores, es la identificación de las posibles fuentes de olor y las características de las emisiones de los olores ofensivos. Cuando se realizan la toma de muestras para el análisis por olfatometría dinámica, dependiendo de la fuente se realizan los siguientes tipos de muestreos.
@@ -1009,19 +1097,19 @@
           .row(titulo="Muestreo de fuentes difusas no aireadas")
             p Para este tipo de fuentes (decantador de una depuradora o una parva o pila de compost – superficiales pasivas) se utiliza el método del túnel del viento o “cámara de flujo” (conocida también como Caja Lindvall). Para ello, mediante un soplante, se insufla un caudal conocido de aire previamente filtrado, a través de la cámara de flujo, tomando la muestra mediante una sonda a la salida de esta.
       .col-md-6.mb-4(data-aos="fade-left")
-        img(src='@/assets/curso/temas/tema2/img21.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema2/img21.png' alt='')
 
     p.mb-4(data-aos="fade") En el caso de que, en cualquiera de las técnicas de muestreo, se requiera llevar a cabo una dilución en campo, el equipo debe cumplir con los mismos requisitos de exactitud y precisión, que se aplican al olfatómetro.
 
     .row.justify-content-center.mb-2
       .col-md-4.mb-4(data-aos="fade-right")
-        img(src='@/assets/curso/temas/tema2/img22.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema2/img22.png' alt='')
       .col-md-8.mb-4(data-aos="fade-left")
         p Por otro lado, durante el muestreo es necesario la medida de una serie de parámetros (temperatura, presión atmosférica, caudal, humedad, etc.) que se utilizarán posteriormente para el cálculo de la emisión de olor de cada foco. Para asegurar la calidad y fiabilidad de las medidas, los instrumentos de medida también deben pasar unas calibraciones periódicas y cumplir los correspondientes criterios de calidad.
         .bg-primario.tarjeta.mb-4
           .row.align-items-center.p-4.p-md-0
             .col-md-2.col-5
-              img.pt-md-3.ps-md-3(src='@/assets/curso/temas/tema2/icono3.svg' alt='Icono decorativo')
+              img.pt-md-3.ps-md-3(src='@/assets/curso/temas/tema2/icono3.svg' alt='')
             .col-md-10.py-4.text-white.pe-md-5
               h5 Formación y emisión de olores 
               p.mb-0 Para profundizar en el tema se sugiere consultar en el material de apoyo el libro «Contaminación Ambiental por Olores. Fundamentos Básicos». 
@@ -1035,6 +1123,8 @@
 
     .row.justify-content-center.mb-5
       .col-md-5(data-aos="fade-down")
+        .titulo-sexto.color-acento-contenido.mb-2
+          p.mb-0 #[b Figura 3] Esquema de vigilancia basada en quejas y reclamos.
         figure
           img(src='@/assets/curso/temas/tema2/infog.svg' alt='ATENCIÓN A QUEJAS POR EXPOSICION A OLORES OFENSIVOS. ENCUESTA DE PERCEPCIÓN')
         figcaption.mt-3
@@ -1042,7 +1132,7 @@
 
     .row.justify-content-center.mb-2
       .col-md-4.mb-4(data-aos="fade-right")
-        img(src='@/assets/curso/temas/tema2/img23.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema2/img23.png' alt='')
       .col-md-8.mb-4(data-aos="fade-left")
         .bloque-texto-c.bg-green9.box-shadow.p-4
           i.fas.fa-quote-right
@@ -1052,7 +1142,7 @@
     .row.align-items-center
       .col-md-8.mb-4(data-aos="fade-right")
         p La planificación de la encuesta se debe realizar con base en al menos una vista de campo en la que se verifique la existencia de una o más potenciales actividades generadoras de olores ofensivos y el área afectada identificando de manera aproximada el tamaño de la población en dicha área. Se debe contar con los siguientes aspectos:
-        ul.lista-ul--color.color-secundario.ps-3.ps-md-4
+        ul.lista-ul--color.color-secundario.ps-3.ps-md-4.fa-ul
           li.mb-1
             i.fas.fa-check
             | Respecto a la selección de la zona control (sin afectación por olores ofensivos), entendiendo que se trata de una población de características similares a la de la población afectada (edad, estrato socio económico, cobertura de servicios de saneamiento básico, tiempo de residencia y permanencia en las viviendas entre otros)
@@ -1070,11 +1160,11 @@
             | El personal encargado de la aplicación de las encuestas debe tener experiencia interactuando con comunidades.
         p Para establecer el procedimiento por atención de quejas se establece el siguiente el siguiente procedimiento:
       .col-md-4.mb-4(data-aos="fade-left")
-        img(src='@/assets/curso/temas/tema2/img24.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema2/img24.png' alt='')
 
     .row.justify-content-center.mb-2
       .col-md-3.mb-4(data-aos="fade-right")
-        img(src='@/assets/curso/temas/tema2/img25.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema2/img25.png' alt='')
       .col-md-9.mb-4(data-aos="fade-left")
         TabsA.tema5.color-acento-botones.mb-4(data-aos="fade-down") 
           .tarjeta.bg-green.p-4.p-md-5(titulo="Medición de la molestia")

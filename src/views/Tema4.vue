@@ -13,13 +13,13 @@
     .row.mb-4
       .col-md-6.mb-4(data-aos="fade-right")
         .tarjeta.bg-secundario.p-4.h-100
-          img.mb-4.m-auto(src='@/assets/curso/temas/tema4/ico1.svg' alt='Icono decorativo' style="width:110px;")
+          img.mb-4.m-auto(src='@/assets/curso/temas/tema4/ico1.svg' alt='' style="width:110px;")
           h3.text-center Tratamiento de las muestras de ruido
           p En monitoreo de ruido a diferencia de otros parámetros, las muestras tomadas en campo leche no se deben caracterizar o generar algún tratamiento especial hablando físico químicamente por esa razón #[b no existe concepto] de rotulado ni envasado debido a que la información se establece de manera digital y se retiene en medios magnéticos o memorias internas del equipo en cuestión.
           p Sin embargo, los formatos de campo y material fotográfico registrado se deben cuidar teniendo en cuenta la cadena de custodia de material información requerida en el muestreo y posterior análisis en el laboratorio.
       .col-md-6.mb-4(data-aos="fade-left")
         .tarjeta.bg-primario.p-4.text-white.h-100
-          img.mb-4.m-auto(src='@/assets/curso/temas/tema4/ico2.svg' alt='Icono decorativo' style="width:110px;")
+          img.mb-4.m-auto(src='@/assets/curso/temas/tema4/ico2.svg' alt='' style="width:110px;")
           h3.text-center Tratamiento de las muestras de olores
           p Las muestras son contenidas en bolsas de Nalophan, la cuales deben ir rotuladas con la información: día y hora del muestreo, debe tenerse en cuenta que estas muestras deben mantenerse a menos de 25ºC. La temperatura, sin embargo, debe mantenerse por encima del punto de rocío de las muestras para evitar condensación. Las muestras no deben estar expuestas a la luz solar directa, para minimizar las reacciones (foto)químicas y la difusión. (Sánchez, J.I., Peña, A.A., Martínez, J.V., 2008, p.11).
           p Las bolsas para toma de muestras de gas están fabricadas de Nalophan®. Se diseñan específicamente para responder a las exigencias de calidad de la norma EN 13725, especialmente para minimizar el riesgo de contaminación de muestras. Su tamaño puede variar entre 8, 10, 40, o 60 Lts.
@@ -28,7 +28,7 @@
 
     .row.justify-content-center.mb-4
       .col-md-4.mb-4(data-aos="fade-right")
-        img(src='@/assets/curso/temas/tema4/img.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema4/img.png' alt='')
       .col-md-8.mb-4(data-aos="fade-left")
         .bloque-texto-c.bg-green9.box-shadow.p-4
           i.fas.fa-quote-right
@@ -52,20 +52,21 @@
           .row(titulo="El laboratorio debe ser el garante")
             p Tanto el protocolo de medida, como las medidas incorporadas con posterioridad, se deben adecuar a la norma. Además, se ha de velar porque el conjunto y la localización de las medidas realizadas sea la correcta.
       .col-md-4.mb-4(data-aos="fade-left")
-        img(src='@/assets/curso/temas/tema4/img2.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema4/img2.png' alt='')
     
     p.mb-4(data-aos="fade") Luego de la recolección, las muestras deberían analizarse tan pronto como sea posible después del muestreo. El intervalo entre el muestreo y la medida no debe exceder de 30 horas. Además, «durante el transporte y almacenamiento, las muestras deben mantenerse a menos de 25ºC. La temperatura, sin embargo, debe mantenerse por encima del punto de rocío de las muestras para evitar condensación. Las muestras no deben estar expuestas a la luz solar directa, para minimizar las reacciones (foto)químicas y la difusión. Para cumplir con este criterio, lo más adecuado es el transporte de las bolsas de muestreo en contenedores isotermos, rígidos y ligeros.
 
     .row.justify-content-center
       .col-md-4.mb-4(data-aos="fade-right")
-        img(src='@/assets/curso/temas/tema4/img3.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema4/img3.png' alt='')
       .col-md-8.mb-4(data-aos="fade-left")
         .bg-primario.tarjeta.mb-4(data-aos="fade-down")
           .row.align-items-center.p-4.p-md-0
             .col-md-3.col-5
-              img.pt-md-2.px-md-4(src='@/assets/curso/temas/tema4/icono.svg' alt='Icono decorativo')
+              img.pt-md-2.px-md-3(src='@/assets/curso/temas/tema4/icono.svg' alt='')
             .col-md-9.py-3.text-white.pe-md-4
-              p.mb-0 #[b ¿Sabías qué?] Las bolsas en donde se capturan las muestras de olores son fabricados en un material de base polímero de Nalophan®. Las bolsas están diseñadas específicamente para responder a las exigencias de calidad de la norma EN 13725, especialmente para minimizar el riesgo de contaminación de muestras. Su tamaño puede variar 8, 10, 40, o 60 Lt
+              p.mb-0 #[b ¿Sabías qué?] 
+              p.mb-0 Las bolsas en donde se capturan las muestras de olores son fabricados en un material de base polímero de Nalophan®. Las bolsas están diseñadas específicamente para responder a las exigencias de calidad de la norma EN 13725, especialmente para minimizar el riesgo de contaminación de muestras. Su tamaño puede variar 8, 10, 40, o 60 Lt
         p En la última fase de la recolección de muestras, se requiere supervisión y control constante. Su importancia radica en organizar las actividades de transporte, preservación, almacenamiento y recepción de las muestras de tal forma que estas no sean alteradas, modificadas o que generen un riesgo que se materialice en resultados no verídicos al procesar las muestras.
         p De acuerdo con el Instituto Colombiano de Normas Técnicas y Certificación (ICONTEC, 2004) en la guía técnica colombiana [GTC] 100 define a la cadena de custodia como el procedimiento que se da cuando una muestra está bajo custodia (posesión o control físico) de alguien, de modo que se debe evitar la manipulación indebida o alteración de sus características desde la toma de la muestra hasta que se desecha (p.3).
     

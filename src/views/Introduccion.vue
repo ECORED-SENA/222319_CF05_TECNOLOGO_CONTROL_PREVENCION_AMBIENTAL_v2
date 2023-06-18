@@ -22,6 +22,7 @@
           figure(data-aos="fade-down")
             .video
               iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            figcaption Video. 
 
     p.mb-4(data-aos="fade") El objetivo del muestreo es obtener una parte representativa del material bajo estudio (olores y ruido) para la cual se analizarán las variables fisicoquímicas y acústicas de interés. Esto requiere identificar la importancia de elaborar el plan y protocolos de muestreo específicos según el factor ambiental evaluado.
 
@@ -31,7 +32,8 @@
       .col-md-9.mb-4(data-aos="fade-left")
         p En algunos casos, el objetivo del muestreo es demostrar que se cumplen las normas especificadas por la legislación ambiental como actividades de prevención y control ambiental y otros casos como medida de corrección y vigilancia, cuando se ha ocasionado un impacto ambiental significativo como la contaminación ambiental en un ecosistema o espacio social de interés.
         .bg-green6.p-4
-          p.mb-0 Nuevas tecnologías Conozca cuáles son las nuevas tecnologías en detección de olores y toma de muestras con la lectura del artículo «Crean en Alemania “Nariz” electrónica para advertir sobre situaciones de peligro», recurso que se encuentra en el material de apoyo.
+          p.mb-0.fw-bold Nuevas tecnologías 
+          p.mb-0 Conozca cuáles son las nuevas tecnologías en detección de olores y toma de muestras con la lectura del artículo «Crean en Alemania “Nariz” electrónica para advertir sobre situaciones de peligro», recurso que se encuentra en el material de apoyo.
 
         
 

@@ -20,7 +20,7 @@
           p.mb-4(data-aos="fade") La emisión o aporte de ruido de cualquier fuente se obtiene al restar logarítmicamente, el ruido residual corregido, del valor del nivel de presión sonora corregido continuo equivalente ponderado A, - LRAeq,T -, como se expresa a continuación:
 
           .col-md-6.mb-4
-            img(src='@/assets/curso/temas/tema5/form.png', alt='Fórmula')
+            img(src='@/assets/curso/temas/tema5/form.svg', alt='Fórmula')
 
           h5.mb-4.text-center(data-aos="fade") Donde:
 
@@ -42,7 +42,9 @@
                 p Nivel corregido de presión sonora continuo equivalente ponderado A, Residual, medido en una hora.
 
     
-    p.mb-4(data-aos="fade") Tener en cuenta: en caso de no poderse evaluar el ruido residual, se toma el nivel percentil L90 corregido y se utiliza a cambio del valor del ruido residual corregido.
+    p.mb-4(data-aos="fade") 
+      b Tener en cuenta: 
+      | en caso de no poderse evaluar el ruido residual, se toma el nivel percentil L90 corregido y se utiliza a cambio del valor del ruido residual corregido.
 
     .row.justify-content-center
       .col-md-10
@@ -207,7 +209,7 @@
       .col-md-4.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/temas/tema5/img6.png' alt='Imagen decorativa')
       .col-md-8.mb-4(data-aos="fade-left")
-        ul.lista-ul--color.color-secundario.ps-3.ps-md-4
+        ul.lista-ul--color.color-secundario.ps-3.ps-md-4.fa-ul
           li.mb-0
             i.fas.fa-check
             | Las diluciones que realiza el olfatómetro.
@@ -273,7 +275,7 @@
       .col-md-7.mb-4(data-aos="fade-right")
         p El análisis se proyecta en un modelo de dispersión para luego hacer la comparación de los resultados directamente con los estándares de concentración presentes en la tabla anteror, teniendo en cuenta el sector o proceso en el cual se hizo la medición de los olores ofensivos; en este caso la unidad de concentración está definida como 
           b OU<sub>E</sub>/m<sup>3</sup> 
-          | (Unidad de Olor Europea)
+          | (Unidad de Olor Europea).
         p La modelación de la información es importante, ya que los datos de entrada se convierten en insumo para hallar las concentraciones para finalmente comparar los valores umbrales con la normatividad. Por otro lado, si las muestras son obtenidas por otras técnicas cómo las analíticas, o muestreadores pasivos para medir sustancias de olores ofensivos, los resultados son comparados con los estándares de la siguiente tabla.
       .col-md-5.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema5/img7.png' alt='Imagen decorativa')
