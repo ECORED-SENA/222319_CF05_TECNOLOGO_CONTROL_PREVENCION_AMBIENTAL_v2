@@ -552,7 +552,7 @@
           .col-md-8.mb-4(data-aos="fade-right")
             .bloque-texto-c.bg-green9.box-shadow.p-4
               i.fas.fa-quote-right
-              p El ruido es considerado un contaminante de tipo criterio, en otras palabras, en un factor que afecta la salud de las personas a las que se ven expuestas, cuando los decibeles están por encima de los valores límites permisibles por la normatividad. La percepción del sonido depende del espectro normalizado del ruido a evaluar. En el caso de un adulto joven, en condiciones de salud normales, su rango de audición va desde los 20 Giga Hertz hasta los 20000 giga Hearts; esos valores de presión son ponderados y analizados en frecuencia bajo curva de ponderación con el fin de tener un análisis para la mayoría de las personas.
+              p El ruido es considerado un contaminante de tipo criterio, en otras palabras, en un factor que afecta la salud de las personas a las que se ven expuestas, cuando los decibeles están por encima de los valores límites permisibles por la normatividad. La percepción del sonido depende del espectro normalizado del ruido a evaluar. En el caso de un adulto joven, en condiciones de salud normales, su rango de audición va desde los 20 gigahercios hasta los 20000 gigahercios; esos valores de presión son ponderados y analizados en frecuencia bajo curva de ponderación con el fin de tener un análisis para la mayoría de las personas.
               h5.mb-0 - (CORPOCALDAS, 2015)
           .col-md-4.mb-4(data-aos="fade-left")
             img(src='@/assets/curso/temas/tema2/img6.png' alt='')

@@ -21,8 +21,8 @@
 
           figure(data-aos="fade-down")
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-            figcaption Video. 
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/v816MWeUquk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            figcaption Video. Proceso de muestreo para ruidos y olores
 
     p.mb-4(data-aos="fade") El objetivo del muestreo es obtener una parte representativa del material bajo estudio (olores y ruido) para la cual se analizarán las variables fisicoquímicas y acústicas de interés. Esto requiere identificar la importancia de elaborar el plan y protocolos de muestreo específicos según el factor ambiental evaluado.
 
