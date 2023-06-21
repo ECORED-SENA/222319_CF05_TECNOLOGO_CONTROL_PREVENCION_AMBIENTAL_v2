@@ -359,8 +359,16 @@
 
     p.mb-4(data-aos="fade") Las etapas que se realizan en la toma de muestras, que se hacen en campo, garantizan la trazabilidad y custodia de la muestra en este proceso. Estas son:
 
-    figure.mb-5
+    figure.mb-4.d-none.d-md-block
       img(src='@/assets/curso/temas/tema2/figura.svg' alt='Etapas que se realizan en la toma de muestras')
+
+    .row.justify-content-center.mb-5
+      .col-md-4
+        a.anexo(:href="obtenerLink('/downloads/Etapas_plan_de_muestreo.pdf')" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-pdf.svg")
+          .anexo__texto
+            p #[b Anexo.] Etapas y plan de muestreo
 
     p.mb-4(data-aos="fade") Cuando se va a realizar cualquier tipo de muestreo, para la medición de olores o ruido previamente se debe elaborar un plan que contenga la información y programación relacionada con los objetivos del muestreo. A continuación, se establecen las condiciones necesarias para la elaboración del plan de muestreo.
     

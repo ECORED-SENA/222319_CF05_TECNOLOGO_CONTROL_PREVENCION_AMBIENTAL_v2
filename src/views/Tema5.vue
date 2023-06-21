@@ -42,9 +42,10 @@
                 p Nivel corregido de presión sonora continuo equivalente ponderado A, Residual, medido en una hora.
 
     
-    p.mb-4(data-aos="fade") 
-      b Tener en cuenta: 
-      | en caso de no poderse evaluar el ruido residual, se toma el nivel percentil L90 corregido y se utiliza a cambio del valor del ruido residual corregido.
+    .mb-4.bg-yellow2.p-2.px-md-3
+      p.mb-0(data-aos="fade") 
+        b Tener en cuenta: 
+        | en caso de no poderse evaluar el ruido residual, se toma el nivel percentil L90 corregido y se utiliza a cambio del valor del ruido residual corregido.
 
     .row.justify-content-center
       .col-md-10
@@ -168,7 +169,7 @@
       | , de acuerdo con lo establecido en la NTC 5880. Se encarga de presentar las muestras en una serie de dilución a un grupo de panelistas seleccionados, uno a la vez, mediante el método 
       b SI / NO.
 
-    .row.fondo2-tema5.align-items-center.py-5.mb-5
+    .row.fondo2-tema5.align-items-center.py-5.pt-3.mb-5
       .col-lg-12.col-12.px-lg-5.px-4
         .row.justify-content-center.align-items-center
 
