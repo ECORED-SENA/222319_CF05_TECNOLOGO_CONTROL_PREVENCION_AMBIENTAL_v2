@@ -33,10 +33,6 @@
                 h5 Riesgo 
                 p Combinación de la probabilidad de que ocurra un(os) evento(s) o exposición(es) peligroso(s), y la severidad de lesión o enfermedad, que puede ser causado por el (los) evento(s) o la(s) exposición(es).
               .tarjeta.color-acento-contenido.fondo-tarjetas.p-4
-                img.mb-3.mx-auto(src='@/assets/curso/temas/tema1/ico4.svg' alt='' style="width:85px;")
-                h5 Equipo de protección personal 
-                p Dispositivo que sirve como medio de protección ante un peligro y que para su funcionamiento requiere de la interacción con otros elementos. Ejemplo, sistema de detección contra caídas.
-              .tarjeta.color-acento-contenido.fondo-tarjetas.p-4
                 img.mb-3.mx-auto(src='@/assets/curso/temas/tema1/ico5.svg' alt='' style="width:85px;")
                 h5 Valoración de los riesgos 
                 p Proceso de evaluar el(los) riesgo(s) que surge(n) de un(os) peligro(s), teniendo en cuenta la suficiencia de los controles existentes, y de decidir si el(los) riesgo(s) es (son) aceptable(s) o no.
@@ -52,6 +48,14 @@
                 img.mb-3.mx-auto(src='@/assets/curso/temas/tema1/ico8.svg' alt='' style="width:85px;")
                 h5 Elemento de Protección Personal (EPP) 
                 p Dispositivo que sirve como barrera entre un peligro y alguna parte del cuerpo de una persona.
+              .tarjeta.color-acento-contenido.fondo-tarjetas.p-4
+                img.mb-3.mx-auto(src='@/assets/curso/temas/tema1/ico4.svg' alt='' style="width:85px;")
+                h5 Equipo de protección personal 
+                p Dispositivo que sirve como medio de protección ante un peligro y que para su funcionamiento requiere de la interacción con otros elementos. Ejemplo, sistema de detección contra caídas.
+              
+              
+              
+              
 
 
     p.mb-4(data-aos="fade") Es importante identificar los peligros y sobre todo valorar los riesgos, según ICONTEC la GCT 45 en Seguridad y salud Ocupacional (S y SO). También el hecho de entender los peligros que se pueden generar en el desarrollo de las actividades, con el fin de que la organización pueda establecer los controles necesarios, al punto de asegurar que cualquier riesgo sea aceptable.(ICONTEC, 2012, p. 4). De ahí que la valoración de los riesgos se debe convertir en una actividad importante en el desarrollo de cualquier trabajo, por sencillo que este parezca, tal y como se describe en el recurso.

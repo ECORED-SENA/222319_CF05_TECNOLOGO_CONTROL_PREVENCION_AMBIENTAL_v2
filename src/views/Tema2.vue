@@ -360,7 +360,7 @@
     p.mb-4(data-aos="fade") Las etapas que se realizan en la toma de muestras, que se hacen en campo, garantizan la trazabilidad y custodia de la muestra en este proceso. Estas son:
 
     figure.mb-4.d-none.d-md-block
-      img(src='@/assets/curso/temas/tema2/figura.svg' alt='Etapas que se realizan en la toma de muestras')
+      img(src='@/assets/curso/temas/tema2/figura.svg' alt='La imagen presenta las cinco etapas para la realización de una toma de muestras ya sea de ruido u olor. Estas son: 1. Identificación del sitio de muestreo. 2. Alistamiento de los equipos, materiales e insumos para la toma. 3. Realizarción de un plan de muestreo. 4. Toma de la muestra. 5. Preservación y almacenamiento temporal. 6. Transporte. Desde la etapa tres se enfocan los esfuerzos tanto en la toma de muestra como en su cadena de custodia')
 
     .row.justify-content-center.mb-5
       .col-md-4
@@ -443,11 +443,11 @@
       .col-lg-12.col-12.px-lg-5.px-4
         .row.justify-content-center.align-items-center
           
-          .row(data-aos="fade-down")
-            .col-md-4.mb-4
+          .row.justify-content-center(data-aos="fade-down")
+            .col-md-9.col-lg-4.mb-4
               .tarjeta.bg-primario.p-4.p-md-5.h-100.text-white
                 .row.mb-4
-                  .col-md-3.col-5
+                  .col-md-3.col-4
                     img(src='@/assets/curso/temas/tema2/ico1.svg' alt='')
                 h5 Geografía y clima: 
                 ul.lista-ul--color.color-secundario.fa-ul
@@ -460,10 +460,10 @@
                   li
                     i.fas.fa-check
                     | Uso de suelos.
-            .col-md-4.mb-4  
+            .col-md-9.col-lg-4.mb-4  
               .tarjeta.bg-primario.p-4.p-md-5.h-100.text-white
                 .row.mb-4
-                  .col-md-3.col-5
+                  .col-md-3.col-4
                     img(src='@/assets/curso/temas/tema2/ico2.svg' alt='')
                 h5 Estructura y tendencias del crecimiento demográfico  
                 ul.lista-ul--color.color-secundario.fa-ul
@@ -476,10 +476,10 @@
                   li
                     i.fas.fa-check
                     | Ubicación de los servicios de saneamiento básico, como, por ejemplo, rellenos sanitarios y plantas de tratamiento de aguas residuales.
-            .col-md-4.mb-4
+            .col-md-9.col-lg-4.mb-4
               .tarjeta.bg-primario.p-4.p-md-5.h-100.text-white
                 .row.mb-4
-                  .col-md-3.col-5
+                  .col-md-3.col-4
                     img(src='@/assets/curso/temas/tema2/ico3.svg' alt='')
                 h5 Otra información de importancia:     
                 ul.lista-ul--color.color-secundario.fa-ul
@@ -612,23 +612,23 @@
     p.mb-4(data-aos="fade") Algunas fuentes generadoras se podrían clasificar de la siguiente manera:
 
     .row.justify-content-center.mb-4.px-md-3(data-aos="fade-down")
-      .col-md-6.mb-md-0.mb-4.px-md-0
+      .col-md-8.col-lg-6.mb-md-2.mb-lg-0.mb-4.px-md-0
         .row.px-2.pt-2.h-100
           .col-12.m-0.nav-holder2.align-items-center.px-0
             figure
               img(src="@/assets/curso/temas/tema2/tarj-hover.jpg", alt="Fuentes de ruido externas")
             .text.p-md-2.px-md-4.p-3
-              .row.px-1.pt-1.mt-md-3.pt-md-0.mt-lg-2.mt-xl-3
-                h5.mt-2.mt-lg-3.mb-3 Fuentes de ruido externas
-                p El rido debido al tráfico rodado, al paso de trenes, al tráfico aéreo, al tráfico marítimo, a las obras públicas, a las actividades industriales, a las actividades urbanas comunitarias y a los agentes atmosféricos.
-      .col-md-6.mb-md-0.mb-4.px-md-0
+              .row.px-1.pt-1.mt-xs-3.mt-md-3.pt-md-0.mt-lg-2.mt-xl-3
+                h5.mt-1.mt-lg-3.mb-3 Fuentes de ruido externas
+                p El ruido debido al tráfico rodado, al paso de trenes, al tráfico aéreo, al tráfico marítimo, a las obras públicas, a las actividades industriales, a las actividades urbanas comunitarias y a los agentes atmosféricos.
+      .col-md-8.col-lg-6.mb-md-2.mb-lg-0.mb-4.px-md-0
         .row.px-2.pt-2.h-100
           .col-12.m-0.nav-holder2.align-items-center.px-0(@mouseover="mostrarIndicador = false")
             .indicador--hover(v-if="mostrarIndicador")
             figure
               img(src="@/assets/curso/temas/tema2/tarj-hover2.jpg", alt="Fuentes de ruido internas")
             .text.p-md-2.px-md-4.p-3
-              .row.px-1.pt-1.mt-md-3.pt-md-0.mt-lg-2.mt-xl-3
+              .row.px-1.pt-1.mt-xs-3.mt-md-3.pt-md-0.mt-lg-2.mt-xl-3
                 h5.mt-1.mt-lg-3.mb-3 Fuentes de ruido internas
                 p El ruido debido a las personas, a los impactos, a los aparatos de radio y televisión, a los aparatos electrodomésticos, a las instalaciones de fontanería y calefacción, a los ascensores, a las instalaciones de ventilación y climatización, a las instalaciones eléctricas y a otras fuentes (como animales).
 
@@ -943,7 +943,7 @@
               img.ps-md-4.pt-0(src='@/assets/curso/temas/tema2/olores.svg' alt='')
             .col-md-10.py-4.text-white.pe-md-5
               h5 Olores ofensivos
-              p.mb-0 Es importante no solamente conocer las actividades de generan los olores sino también, identificar cuáles son las sustancias que lo producen, estas sustancias se pueden encontrar en la corriente de aire en forma gaseosa o líquida, también en los recursos hídricos y en el suelo. Se sugiere revisar la tabla de sustancias de olores ofensivos por actividad que se encuentra en la Resolución 1541 de 2013; recurso que se encuentra en el material de apoyo. 
+              p Es importante no solamente conocer las actividades de generan los olores sino también, identificar cuáles son las sustancias que lo producen, estas sustancias se pueden encontrar en la corriente de aire en forma gaseosa o líquida, también en los recursos hídricos y en el suelo. Se sugiere revisar la tabla de sustancias de olores ofensivos por actividad que se encuentra en la Resolución 1541 de 2013; recurso que se encuentra en el material de apoyo. 
               p.mb-0 A nivel internacional se han clasificado actividades como las principales generadoras de olores ofensivos y por esta razón se explica particularmente su incidencia en la generación de olores ofensivos, que se visualizan en la tabla de aspectos ambientales de las sustancias asociadas a olores ofensivos en el Lineamiento de Vigilancia Ambiental, 2012, p.24; recurso que se encuentra en el material de apoyo. 
       .col-md-3.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema2/img18.png' alt='')
@@ -1034,7 +1034,7 @@
             p.mb-0 En esta técnica se emplean los Espectrómetros, en décadas anteriores se han desarrollado mejores tecnologías para análisis de compuestos químicos, como el espectrómetro Transformador Infrarrojo de Paso Abierto de Fourier (Open-Path Fourier transforminfrared / OP-FTIR), el cual ofrece monitoreo remoto, análisis multicompuestos rápidos y mediciones promedio. Esta técnica ha sido aplicada exitosamente en la identificación de fuentes de emisión.
           .tarjeta.bg-yellow.p-3(x="81%" y="94%" numero="+")
             .h5.mb-2 Modelización
-            p.mb-0 EEs el método más empleado para valorar la contaminación por olores generada por una fuente. Se basa en el uso de modelos matemáticos de dispersión de contaminantes. La modelización permite evaluar el impacto odorífero que una instalación, existente o futura, tiene o tendrá sobre su entorno próximo. A partir de los datos meteorológicos de la zona se puede efectuar la modelización. El resultado del modelo es la obtención de la concentración de olor en inmisión. Esta concentración puede representarse mediante líneas con un mismo valor de concentración de olor: las isodoras.
+            p.mb-0 Es el método más empleado para valorar la contaminación por olores generada por una fuente. Se basa en el uso de modelos matemáticos de dispersión de contaminantes. La modelización permite evaluar el impacto odorífero que una instalación, existente o futura, tiene o tendrá sobre su entorno próximo. A partir de los datos meteorológicos de la zona se puede efectuar la modelización. El resultado del modelo es la obtención de la concentración de olor en inmisión. Esta concentración puede representarse mediante líneas con un mismo valor de concentración de olor: las isodoras.
 
 
 
@@ -1050,11 +1050,11 @@
               h5 Formación y emisión de olores
               p.mb-0 Se sugiere revisar el documento audiovisual «Formación y emisión de olores: caracterización y evaluación de impacto» que se encuentra en el material de apoyo, para fortalecer lo hasta ahora aprendido.
         p La evaluación de olores ofensivos a través de métodos sensoriales se basa en la determinación de la concentración del olor por olfatometría dinámica, metodología desarrollada en la NTC 5880 Calidad del Aire. Determinación de la concentración del olor por olfatometría dinámica correspondiente con la Norma Europea EN 13725 estandarizada por el Comité Europeo de Normalización. (MinAmbiente, 2014, p.31)
-        p La norma establece un método para la determinación objetiva de la concentración de olor de una muestra gaseosa usando olfatometría dinámica con evaluadores humanos y la velocidad de emisión de olores que emanan de fuentes puntuales y/o fuentes superficiales. La unidad de medida es la unidad de olor europea por metro cúbico: ouE/m3. La concentración de olor se expresa en términos de múltiplos del umbral de detección. En cuanto al campo de aplicación la norma europea, citado en MinAmbiente (2014, p. 31), incluye:
+        p La norma establece un método para la determinación objetiva de la concentración de olor de una muestra gaseosa usando olfatometría dinámica con evaluadores humanos y la velocidad de emisión de olores que emanan de fuentes puntuales y/o fuentes superficiales. La unidad de medida es la unidad de olor europea por metro cúbico: OU<sub>E</sub> /m<sup>3</sup>. La concentración de olor se expresa en términos de múltiplos del umbral de detección. En cuanto al campo de aplicación la norma europea, citado en MinAmbiente (2014, p. 31), incluye:
         ul.lista-ul--color.color-secundario.ps-3.ps-md-4.fa-ul
           li.mb-1
             i.fas.fa-check
-            span La medida de la concentración másica del umbral de detección de las sustancias olorosas puras en #[b g/m3]
+            span La medida de la concentración másica del umbral de detección de las sustancias olorosas puras en #[b g/m<sup>3</sup>]
           li.mb-1
             i.fas.fa-check
             span La medida de la concentración de olor de mezclas de sustancias olorosas en <b>OU<sub>E</sub> /m<sup>3</sup></b>
