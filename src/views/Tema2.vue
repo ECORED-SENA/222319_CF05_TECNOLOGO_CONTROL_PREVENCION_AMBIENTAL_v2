@@ -752,7 +752,7 @@
           p.text-white En caso de presentarse ruidos que no pertenezca a la operación directa de la fuente, como pitos, altavoces, sirenas, perifoneos, etc, estos no deberán ser tenidos en cuenta y la información debe ser relacionada en el informe técnico. A continuación se describen los principales parámetros empleados para la medición de la emisión de ruido, de acuerdo con la Resolución 627 de 2006.
           .row 
             .col-md-7
-              a.anexo.mb-3(:href="obtenerLink('/downloads/Parámetros_medicion_ruido.pdf')" target="_blank")
+              a.anexo.mb-3(:href="obtenerLink('/downloads/Parametros_medicion_ruido.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
