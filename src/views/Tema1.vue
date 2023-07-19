@@ -27,7 +27,7 @@
               .tarjeta.color-acento-contenido.fondo-tarjetas.p-4
                 img.mb-3.mx-auto(src='@/assets/curso/temas/tema1/ico2.svg' alt='' style="width:85px;")
                 h5 Identificación del peligro 
-                p Proceso para reconocer si existe un peligro y definir sus características
+                p Proceso para reconocer si existe un peligro y definir sus características.
               .tarjeta.color-acento-contenido.fondo-tarjetas.p-4
                 img.mb-3.mx-auto(src='@/assets/curso/temas/tema1/ico3.svg' alt='' style="width:85px;")
                 h5 Riesgo 
@@ -220,7 +220,7 @@
                 b.t-green2 decisión de si son aceptables o no, 
                 | con base en los criterios definidos.
           .bg-acento-contenido.borde-radius-top.borde-radius-bottom.p-4.mb-0
-            p.mb-0 Por esa razón la evaluación de los riesgos corresponde al proceso de determinar la probabilidad de que ocurran eventos específicos y la magnitud de sus consecuencias, mediante el uso sistemático de la información disponible (ICONTECT, 2012 p.12)      
+            p.mb-0 Por esa razón la evaluación de los riesgos corresponde al proceso de determinar la probabilidad de que ocurran eventos específicos y la magnitud de sus consecuencias, mediante el uso sistemático de la información disponible (ICONTECT, 2012 p.12).      
       .col-md-3.px-md-0
         .h-100
           img(src='@/assets/curso/temas/tema1/img5.svg' alt='')
@@ -251,10 +251,12 @@
             .bg-green6.h-100.p-4.d-flex.align-items-center 
               p.mb-0 Es importante resaltar, entonces, que el peligro siempre va a existir en el ámbito laboral, mientras que el riesgo que se deriva del peligro es un factor que se puede controlar y se puede valorar.
 
-    p.mb-4(data-aos="fade") Determinación del nivel de deficiencia Para determinar el ND se puede utilizar la Tabla 2 establecida en la GTC 45.
+    p.mb-4(data-aos="fade") Determinación del nivel de deficiencia. Para determinar el ND se puede utilizar la Tabla establecida en la GTC 45.
 
     .row.justify-content-center
-      .col-md-9.mb-4(data-aos="fade-right")
+      .col-lg-10.mb-4(data-aos="fade-right")
+        .titulo-sexto.color-acento-contenido.mb-2
+          p.mb-0 #[b Tabla 1.] Determinación del nivel de deficiencia
         .tabla-a.tema5.color-secundario
           table
             caption 
@@ -283,11 +285,7 @@
                 td 
                   p No se ha detectado peligro o la eficacia del conjunto de medidas preventivas existentes es alta, o ambos. El riesgo está controlado
                   p.mb-0 Estos peligros se clasifican directamente en el nivel de riesgo y de intervención cuatro (IV)
-      .col-md-3.mb-4(data-aos="fade-left")
-        .bg-green7.h-100.p-4.mb-4
-          p Es importante resaltar, entonces, que el peligro siempre va a existir en el ámbito laboral, mientras que el riesgo que se deriva del peligro es un factor que se puede controlar y se puede valorar.
-          p #[b Determinación del nivel de deficiencia] Para determinar el ND se puede utilizar la Tabla 2 establecida en la GTC 45.
-
+      
 
     Separador 
 

@@ -86,7 +86,7 @@
                 p Es el valor de la observación o elemento que tiene la mayor frecuencia.
                 .row.justify-content-center 
                   .col-md-4
-                    img(src='@/assets/curso/temas/tema2/form2.png', alt='Fórmula Moda')
+                    img(src='@/assets/curso/temas/tema2/form3.png', alt='Fórmula Moda')
 
     
 
@@ -112,7 +112,7 @@
         h4.text-center.mb-0 (C) Promedio75, Mediana 75, Moda 85.
 
     
-    p.mb-4(data-aos="fade") Sumado a lo anterior, existen otros términos meteorológicos de igual importancia que son necesarios contemplar.
+    p.mb-4(data-aos="fade") Sumado a lo anterior, existen otros términos meteorológicos de igual importancia que son necesarios contemplar:
 
     TabsA.tema5.color-acento-botones(data-aos="fade-down") 
       .tarjeta.bg-green.p-4.p-md-5(titulo="Meteorología")
@@ -147,8 +147,11 @@
 
         p.mb-4 La unidad de medida de la Presión atmosférica se establece en diferentes unidades dependiendo el sistema unidades empleado, algunas de las equivalencias más utilizadas se encuentran:
         
+        .titulo-sexto.color-acento-contenido.mb-2
+          p.mb-0 #[b Tabla 2.] Equivalencias entre unidades de presión
         .tabla-a.tema5.color-secundario.mb-4
           table
+            caption Tomado de mendezfrank (s.f.)
             thead
               tr.bg-secundario
                 th(colspan="7") Equivalencias entre unidades de presión
@@ -421,10 +424,19 @@
             i.fas.fa-check
             | Cadena de custodia (si aplica).
         h5 Anexos 
-        p Lista de Verificación de alistamiento de equipos. 
-        p Planos de ubicación o aérea o satelital del sitio.
-        p Plano vial de carreteras, caminos o calles para llegar al sitio y edificaciones Plano de la zona de estudio e identificación de los puntos de muestreo geo-referenciado en coordenadas UTM. 
-        p Copia de la acreditación y de la aprobación del laboratorio vigente, y certificación de calibración de instrumentos de medición
+        ul.lista-ul--color.color-secundario.fa-ul
+          li.mb-0
+            i.fas.fa-check
+            | Lista de Verificación de alistamiento de equipos. 
+          li.mb-0
+            i.fas.fa-check
+            |  Planos de ubicación o aérea o satelital del sitio.
+          li.mb-0
+            i.fas.fa-check
+            |  Plano vial de carreteras, caminos o calles para llegar al sitio y edificaciones Plano de la zona de estudio e identificación de los puntos de muestreo geo-referenciado en coordenadas UTM. 
+          li.mb-0
+            i.fas.fa-check
+            |  Copia de la acreditación y de la aprobación del laboratorio vigente, y certificación de calibración de instrumentos de medición
       .row(titulo="Consideraciones del Plan de Muestreo - Olores")
         p Para la realización de un estudio olfatométrico para la medición de olores ofensivos.
         p En esta fase supone el conocimiento previo al detalle de todos aquellos aspectos que pueden verse inmersos en la generación de olores de una actividad o instalación. Este conocimiento previo es fundamental para poder establecer un programa de muestreo que responda a los objetivos planteados en el estudio de impacto ambiental por olores. 
@@ -535,7 +547,7 @@
             p Cuando la superficie emisora no es homogénea hay que considerar la realización de distintas tomas en cada una de las zonas identificadas o la realización de muestreos integrados.
           .tarjeta.color-acento-contenido.fondo-tarjetas.p-4
             h5 Temperatura
-            p El aumento de temperatura provoca un incremento de la presión de vapor de los compuestos volátiles responsables del olor. Esto es muy habitual en las emisiones en láminas de agua. Por este motivo los muestreos en balsas de lixiviados en vertederos o en una PTAR deberían realizarse en fechas de mayores temperatura ambiental como primavera o verano.
+            p El aumento de temperatura provoca un incremento de la presión de vapor de los compuestos volátiles responsables del olor. Esto es muy habitual en las emisiones en láminas de agua. Por este motivo los muestreos en balsas de lixiviados en vertederos o en una PTAR deberían realizarse en fechas de mayores temperaturas ambientales como primavera o verano.
           .tarjeta.color-acento-contenido.fondo-tarjetas.p-4
             h5 Número de muestras 
             p Esta cuestión tiene particular interés en aquellos focos de la instalación en los que se espere los valores de emisión más altos. Por tanto, a nivel práctico se deben proponer para el plan de muestreo réplicas en aquellas fuentes puntuales con altos caudales y/o altas concentraciones de olor.
@@ -558,10 +570,13 @@
             h3.subt.text-white.mb-4(data-aos="fade") Ruido
 
           .col-md-8.mb-4(data-aos="fade-right")
-            .bloque-texto-c.bg-green9.box-shadow.p-4
-              i.fas.fa-quote-right
-              p El ruido es considerado un contaminante de tipo criterio, en otras palabras, en un factor que afecta la salud de las personas a las que se ven expuestas, cuando los decibeles están por encima de los valores límites permisibles por la normatividad. La percepción del sonido depende del espectro normalizado del ruido a evaluar. En el caso de un adulto joven, en condiciones de salud normales, su rango de audición va desde los 20 gigahercios hasta los 20000 gigahercios; esos valores de presión son ponderados y analizados en frecuencia bajo curva de ponderación con el fin de tener un análisis para la mayoría de las personas.
-              h5.mb-0 - (CORPOCALDAS, 2015)
+            .bloque-texto-b.bg-green9.box-shadow.p-4
+              .bloque-texto-b__texto
+                i.fas.fa-quote-left
+                p El ruido es considerado un contaminante de tipo criterio, en otras palabras, en un factor que afecta la salud de las personas a las que se ven expuestas, cuando los decibeles están por encima de los valores límites permisibles por la normatividad. La percepción del sonido depende del espectro normalizado del ruido a evaluar. En el caso de un adulto joven, en condiciones de salud normales, su rango de audición va desde los 20 gigahercios hasta los 20000 gigahercios; esos valores de presión son ponderados y analizados en frecuencia bajo curva de ponderación con el fin de tener un análisis para la mayoría de las personas.
+                br
+                h5.mb-0 - (CORPOCALDAS, 2015)
+                i.fas.fa-quote-right
           .col-md-4.mb-4(data-aos="fade-left")
             img(src='@/assets/curso/temas/tema2/img6.png' alt='')
 
@@ -602,11 +617,18 @@
           li
             i.fas.fa-check
             | Presentación de informes y otras disposiciones.
-        .bloque-texto-c.bg-green9.box-shadow.p-4
-          i.fas.fa-quote-right
-          h5 Según European acústica (2017) los efectos del ruido refieren que:
-          p El ruido generado en los grandes centros urbanos se convierte en un factor que impacta directamente en la comunidad Influye en gran importancia el tráfico, la actividad industrial, comercial, entre otros quienes aportan grandes cantidades de decibeles en un sector determinado. 
-          p La medición de los decibeles se convierte en un factor fundamental para determinar las estrategias que se deben implementar en la reducción del mismo, es importante conocer cuáles son las fuentes generadoras de este ruido debido que las actividades industriales y comerciales establecen una serie de aportes en decibeles que afectan directamente a la salud de las personas en la comunidad.
+        .bloque-texto-b.bg-green9.box-shadow.p-4
+          .bloque-texto-b__texto
+            i.fas.fa-quote-left
+            h5 Según European acústica (2017) los efectos del ruido refieren que:
+            br
+            br
+            p El ruido generado en los grandes centros urbanos se convierte en un factor que impacta directamente en la comunidad Influye en gran importancia el tráfico, la actividad industrial, comercial, entre otros quienes aportan grandes cantidades de decibeles en un sector determinado. 
+            br
+            br
+            p La medición de los decibeles se convierte en un factor fundamental para determinar las estrategias que se deben implementar en la reducción del mismo, es importante conocer cuáles son las fuentes generadoras de este ruido debido que las actividades industriales y comerciales establecen una serie de aportes en decibeles que afectan directamente a la salud de las personas en la comunidad.
+            i.fas.fa-quote-right
+
           
 
     p.mb-4(data-aos="fade") Algunas fuentes generadoras se podrían clasificar de la siguiente manera:
@@ -636,10 +658,15 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-md-8.mb-4(data-aos="fade-right")
-        .bloque-texto-c.bg-green9.box-shadow.p-4
-            i.fas.fa-quote-right
+        .bloque-texto-b.bg-green9.box-shadow.p-4
+          .bloque-texto-b__texto
+            i.fas.fa-quote-left
             h5.mb-1.mt-3 Según CORPOCALDAS (2015)
+            br
+            br
             p Los fallos en el desempeño de la actividad laboral pueden producir accidentes el ruido con decibeles por encima de los 80 db y aumentar el comportamiento agresivo y establecer ciertos problemas mentales debido a la demanda de tranquilizantes y somníferos por la ansiedad y angustia que este puede provocar (p.10).
+            i.fas.fa-quote-right
+            
       .col-md-4.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema2/img8.png' alt='')
 
@@ -728,7 +755,7 @@
             .col-md-4.mb-4(data-aos="fade-right")
               img(src='@/assets/curso/temas/tema2/img11.png' alt='')
             .col-md-8.mb-4(data-aos="fade-left")
-              p Ahora bien, luego de las condiciones peviamete descritas, se procede a a realizar las mediciones. El equipo debe estar colocado fijamente sobre un trípode a una altura de 1.2 mts a partir del nivel mínimo donde se encuentre la fuente instalada a una distancia de 1.5 mts de la fachada o cerramiento perimetral de la empresa, proyecto o fuente emisora de ruido.
+              p Ahora bien, luego de las condiciones peviamete descritas, se procede a realizar las mediciones. El equipo debe estar colocado fijamente sobre un trípode a una altura de 1.2 mts a partir del nivel mínimo donde se encuentre la fuente instalada a una distancia de 1.5 mts de la fachada o cerramiento perimetral de la empresa, proyecto o fuente emisora de ruido.
               p Con el fin de prevenir posibles errores durante la medición el sonómetro debe estar orientado con la pantalla anti-viento hacia la dirección de la fuente específica, según sea el caso únicamente debe estar el técnico que realiza las mediciones, entre más personas que estén presentes en el sitio de medición y más aún cerca al sonómetro, se podría presentar fenómenos como el apantallamiento, que influye negativamente en la recepción de la información por parte del sonómetro.
 
           p.mb-4(data-aos="fade") La separación que debe haber entre el técnico (y las demás personas, si las hubiera en el momento de la medición) y el sonómetro, debe ser de por lo menos 0.5 m. (Universidad de Medellín, 2011), tal como se presenta en el siguiente gráfico.
@@ -749,7 +776,7 @@
         p También, se deben realizar por punto, dos procesos de medición de una hora de captura de información o a intervalos de 15 minutos (Una medición con la fuente de emisión operando en su máximo nivel de producción o de emisión de ruido y una Medición (con la fuente de emisión en condiciones neutras de operación o mejor dicho sin la emisión de ruido generado). Todo esto, con el fin de determinar el ruido residual.
         .bg-degrade-green.tarjeta.p-4
           h3.text-white Glosario – Parámetros de medición de ruido 
-          p.text-white En caso de presentarse ruidos que no pertenezca a la operación directa de la fuente, como pitos, altavoces, sirenas, perifoneos, etc, estos no deberán ser tenidos en cuenta y la información debe ser relacionada en el informe técnico. A continuación se describen los principales parámetros empleados para la medición de la emisión de ruido, de acuerdo con la Resolución 627 de 2006.
+          p.text-white En caso de presentarse ruidos que no pertenezca a la operación directa de la fuente, como pitos, altavoces, sirenas, perifoneos, etc., estos no deberán ser tenidos en cuenta y la información debe ser relacionada en el informe técnico. A continuación se describen los principales parámetros empleados para la medición de la emisión de ruido, de acuerdo con la Resolución 627 de 2006.
           .row 
             .col-md-7
               a.anexo.mb-3(:href="obtenerLink('/downloads/Parametros_medicion_ruido.pdf')" target="_blank")
@@ -771,10 +798,16 @@
           li.mb-0
             i.fas.fa-check
             | Nivel percentil L90.
-        .bloque-texto-c.bg-green9.box-shadow.p-4.mb-4
-          i.fas.fa-quote-right
-          p Si por alguna razón no es posible medir el ruido residual, se toma como valor indicativo (o representativo) de éste el correspondiente al nivel percentil L90. Esto se debe hacer constar en el informe técnico, en el que a su vez se deben especificar las razones por las cuales no fue posible medir el ruido residual. 
-          h5.mb-0 - (Universidad de Medellín, 2011) 
+        .bloque-texto-b.bg-green9.box-shadow.p-4.mb-4
+          .bloque-texto-b__texto
+            i.fas.fa-quote-left
+            p Si por alguna razón no es posible medir el ruido residual, se toma como valor indicativo (o representativo) de éste el correspondiente al nivel percentil L90. Esto se debe hacer constar en el informe técnico, en el que a su vez se deben especificar las razones por las cuales no fue posible medir el ruido residual. 
+            br
+            br
+            h5.mb-0 - (Universidad de Medellín, 2011) 
+            i.fas.fa-quote-right
+
+         
         p Cuando se va a realizar la medición se debe establecer unos tiempos o intervalos que permitan tomar muestras características representativas de acuerdo con lo establecido en la Resolución 627de 2006 el tiempo máximo es de una (1) hora de captura información con 15 minutos como mínimo con el fin de evitar incurrir en mediciones cortas que generarían baja representatividad. Si las condiciones para medir en esos tiempos no se dan la duración de cada intervalo de tiempo de medición no podrá ser inferior a 5 minutos.     
       .col-md-4.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema2/img13.png' alt='')
@@ -827,12 +860,12 @@
         p También es importante que durante la medición se debe generar registro fotográfico por cada punto de medición y registrar los datos de la medición del viento en el muestreo que se llevó al lugar.
 
 
-    p.mb-4(data-aos="fade") Finalmente, se cierra esta temática de medición de ruido presentando una ruta de medición tomada del «Protocolo para la medición de emisión de ruido, ruido ambiental y realización de mapas de ruido» de la Universidad de Medellín (2011, p.33-35).
+    p.mb-4(data-aos="fade") Finalmente, se cierra esta temática de medición de ruido presentando una ruta de medición tomada del «Protocolo para la medición de emisión de ruido, ruido ambiental y realización de mapas de ruido» de la Universidad de Medellín (2011, p.33-35):
 
     .row.justify-content-center.align-items-center.mb-4
       .col-md-8.mb-4(data-aos="fade-right")
         LineaTiempoD.color-secundario
-          p(numero="1" titulo="Condiciones meteorológicas") Antes de emprender una medición para determinar la emisión de ruido, es necesario verificar las condiciones meteorológicas. (verificar la velocidad del viento no debe ser mayor a 3m/s 
+          p(numero="1" titulo="Condiciones meteorológicas") Antes de emprender una medición para determinar la emisión de ruido, es necesario verificar las condiciones meteorológicas. (verificar la velocidad del viento no debe ser mayor a 3m/s).
           p(numero="2" titulo="Ubicación del sonómetro") El sonómetro se ubica con el micrófono ubicado haca la fuente a 1.5 de la fachada y a 1.20 de altura, separado del operador del equipo a 50 cm para evitar el apantallamiento del sonido. 
           p(numero="3" titulo="Calibración") Realizar calibración acústica del sonómetro con el pistófono antes de iniciar la medición.
           p(numero="4" titulo="Condiciones de medición") Las mediciones se realizan con respuesta lenta (S) y con filtros de ponderación frecuencial A y Z (antes lineal) y con respuesta por impulso (I) y con filtro de ponderación frecuencial A. La medición deberá realizarse en el día, horario y condiciones de funcionamiento donde la intensidad de la emisión de ruido sea mayor. 
@@ -964,15 +997,15 @@
           img(src='@/assets/curso/temas/tema2/acord-img2.png' alt='')
       .row.px-md-2(titulo="Curtido de cuero")
         .col-md-7
-          p Las industrias de curtido y acabado de cueros, tradicionalmente han aparecido ante el mundo como algunas de las más sucias y contaminantes debido al proceso para que este producto tenga el terminado que conocemos comercialmente. Como consecuencia, el agua residual de la industria de curtido tiene altas concentraciones de materia orgánica, compuestos de nitrógeno, sulfuros, sólidos suspendidos, compuestos de cromo y pHelevado. 
+          p Las industrias de curtido y acabado de cueros, tradicionalmente han aparecido ante el mundo como algunas de las más sucias y contaminantes debido al proceso para que este producto tenga el terminado que conocemos comercialmente. Como consecuencia, el agua residual de la industria de curtido tiene altas concentraciones de materia orgánica, compuestos de nitrógeno, sulfuros, sólidos suspendidos, compuestos de cromo y pH elevado. 
           p La alta carga de materia orgánica provoca la creación de condiciones anaerobias en cuerpos o cursos de agua, debido al elevado consumo de oxígeno disuelto. Estas condiciones, además de afectar la vida acuática, favorecen la producción de algunos gases nocivos como ácido sulfhídrico y metano, indicadores cualitativos para la generacion de olores ofensivos de muy mal carácter. (Ministerio de Salud, 2012 p. 30)
           p Generalmente los malos olores provienen de un inadecuado control en las diferentes actividades, las mas significativas son: el pelambre, descarne, la limpieza de equipos y recipientes y el vertimiento de efluentes líquidos y sólidos a los cursos de agua.
         .col-md-5
           img(src='@/assets/curso/temas/tema2/acord-img3.png' alt='')
       .row.px-md-2(titulo="Industria petroquímica")
         .col-md-7
-          p En la industria petrolera, los yacimientos de crudo contienen contaminantes entre los cuales se encuentra el azufre, el cual al combinarse con moléculas de hidrogeno forma el ácido sulfhídrico, que es liberado de los hidrocarburos en forma de gas al suministrarlescalor. Existen microorganismos anaerobios capaces de utilizar compuestos de azufre, tales como las bacterias sulfato reductoras (BSR) y las bacterias tiosulfato reductoras (BSTR), las cuales utilizan el azufre como aceptores finales de electrones en la oxidación de la materia orgánica, produciendo principalmente ácido sulfhídrico y mercaptanos. (Ministerio de Salud, 2012 p.30).
-          p Otro aspecto importante que tiene que ver con la industria petrolera y la contaminación por olores ofensivos son los derrames de petróleo debido a la ocurrencia de accidentes o atentados a la infraestrucctra petrolera en nuestro pais influyendo en la salud de las poblaciones afectadas.
+          p En la industria petrolera, los yacimientos de crudo contienen contaminantes entre los cuales se encuentra el azufre, el cual al combinarse con moléculas de hidrogeno forma el ácido sulfhídrico, que es liberado de los hidrocarburos en forma de gas al suministrarles calor. Existen microorganismos anaerobios capaces de utilizar compuestos de azufre, tales como las bacterias sulfato reductoras (BSR) y las bacterias tiosulfato reductoras (BSTR), las cuales utilizan el azufre como aceptores finales de electrones en la oxidación de la materia orgánica, produciendo principalmente ácido sulfhídrico y mercaptanos. (Ministerio de Salud, 2012 p.30).
+          p Otro aspecto importante que tiene que ver con la industria petrolera y la contaminación por olores ofensivos son los derrames de petróleo debido a la ocurrencia de accidentes o atentados a la infraestructura petrolera en nuestro pais influyendo en la salud de las poblaciones afectadas.
         .col-md-5
           img(src='@/assets/curso/temas/tema2/acord-img4.png' alt='')
 
@@ -1121,10 +1154,15 @@
             .col-md-10.py-4.text-white.pe-md-5
               h5 Formación y emisión de olores 
               p.mb-0 Para profundizar en el tema se sugiere consultar en el material de apoyo el libro «Contaminación Ambiental por Olores. Fundamentos Básicos». 
-        .bloque-texto-c.bg-green9.box-shadow.p-4
-          i.fas.fa-quote-right
-          p Por definición cuando se hace referencia a olores ofensivos, necesariamente se están describiendo dos condiciones: la presencia de una o más sustancias olorosas en el aire y un receptor sensible. En este contexto, es el receptor sensible quien actúa como indicador de una situación dada por olores ofensivos en el ambiente. La materialización de dicha situación se da en cuanto dicho receptor involucra a las Autoridades Ambientales a través de una queja. 
-          h5.mb-0 - (MinAmbiente, 2014, p.8)
+        .bloque-texto-b.bg-green9.box-shadow.p-4
+          .bloque-texto-b__texto
+            i.fas.fa-quote-left
+            p Por definición cuando se hace referencia a olores ofensivos, necesariamente se están describiendo dos condiciones: la presencia de una o más sustancias olorosas en el aire y un receptor sensible. En este contexto, es el receptor sensible quien actúa como indicador de una situación dada por olores ofensivos en el ambiente. La materialización de dicha situación se da en cuanto dicho receptor involucra a las Autoridades Ambientales a través de una queja. 
+            br
+            br
+            h5.mb-0 - (MinAmbiente, 2014, p.8)
+            i.fas.fa-quote-right
+          
 
     p(data-aos="fade") Las quejas son el medio por el cual, la comunidad puede manifestar su inconformidad por las molestias que generan los olores, sin embargo, para calificar una queja como válida es necesario que se verifiquen algunos aspectos que le permitan a la autoridad ambiental determinar de manera objetiva la existencia real de una afectación por olores ofensivos.
     p.mb-4.mb-md-5(data-aos="fade") Así, con el propósito de establecer una herramienta que permita minimizar los posibles sesgos en las quejas, se aplica una encuesta estandarizada que corresponde con la NTC 6012-1. A continuación se resume el contenido de la misma y los aspectos a tener en cuenta para su aplicación.
@@ -1142,10 +1180,16 @@
       .col-md-4.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/temas/tema2/img23.png' alt='')
       .col-md-8.mb-4(data-aos="fade-left")
-        .bloque-texto-c.bg-green9.box-shadow.p-4
-          i.fas.fa-quote-right
-          p La Evaluación sicométrica de las molestias por olores describe métodos de investigación para establecer los niveles de molestia existente, para lo cual incluye una población control, determina herramientas para estimar áreas de población afectadas y comparar resultados de modelos de dispersión con la realidad descrita por la población. El alcance de la NTC 6012-1 permite obtener un panorama objetivo de una presunta problemática por olores, así como la evaluación de la eficacia de las medidas tomadas para la prevención y/o control de las emisiones.
-          h5.mb-0 - (MinAmbiente, 2014, p.9)
+        .bloque-texto-b.bg-green9.box-shadow.p-4
+          .bloque-texto-b__texto
+            i.fas.fa-quote-left
+            p La Evaluación sicométrica de las molestias por olores describe métodos de investigación para establecer los niveles de molestia existente, para lo cual incluye una población control, determina herramientas para estimar áreas de población afectadas y comparar resultados de modelos de dispersión con la realidad descrita por la población. El alcance de la NTC 6012-1 permite obtener un panorama objetivo de una presunta problemática por olores, así como la evaluación de la eficacia de las medidas tomadas para la prevención y/o control de las emisiones.
+            br
+            br
+            h5.mb-0 - (MinAmbiente, 2014, p.9)
+            i.fas.fa-quote-right
+
+         
 
     .row.align-items-center
       .col-md-8.mb-4(data-aos="fade-right")

@@ -161,7 +161,9 @@
     p.text-center.mb-4(data-aos="fade") En este grafico resume el proceso que se lleva a cabo en la interpretación final del resultado.
     
     .row.justify-content-center.mb-4
-      .col-md-5(data-aos="fade-down")
+      .col-lg-5(data-aos="fade-down")
+        .titulo-sexto.color-acento-contenido.mb-2
+          p.mb-0 #[b Figura 15.] Proceso
         img(src='@/assets/curso/temas/tema5/infog.svg' alt='Toma de muestras')
 
     p.mb-4(data-aos="fade") Para el análisis de todas las muestras tomadas se analizan mediante olfatometría dinámica dentro de 
@@ -182,13 +184,17 @@
           .col-md-4.mb-4(data-aos="fade-right")
             img(src='@/assets/curso/temas/tema5/img4.png' alt='Imagen decorativa')
           .col-md-8.mb-4(data-aos="fade-left")
-            .bloque-texto-c.bg-green9.box-shadow.p-4
-              i.fas.fa-quote-right
-              p La concentración de olor de una muestra gaseosa de sustancias olorosas viene determinada por el número de diluciones que se ha tenido que hacer a la muestra con aire puro inodoro, para que los panelistas la perciban. Se presenta un ejemplo de este procedimiento.
-              h5.mb-0 - tomado de Sánchez J. I., Peña A.A., & Martínez, J.V. (2008, p.11)
+            .bloque-texto-b.bg-green9.box-shadow.p-4
+              .bloque-texto-b__texto
+                i.fas.fa-quote-left
+                p La concentración de olor de una muestra gaseosa de sustancias olorosas viene determinada por el número de diluciones que se ha tenido que hacer a la muestra con aire puro inodoro, para que los panelistas la perciban. Se presenta un ejemplo de este procedimiento.
+                br
+                br
+                h5.mb-0 - tomado de Sánchez J. I., Peña A.A., & Martínez, J.V. (2008, p.11)
+                i.fas.fa-quote-right     
+              
 
-          h5.text-center(data-aos="fade") Ejemplo de un proceso de olfatometría
-          p.mb-4(data-aos="fade") La concentración de olor de una muestra gaseosa de sustancias olorosas viene determinada por el número de diluciones que se ha tenido que hacer a la muestra con aire puro inodoro, para que los panelistas la perciban. Se presenta un ejemplo de este procedimiento.
+          h5.text-center.mb-4(data-aos="fade") Ejemplo de un proceso de olfatometría
 
           .col-md-3.mb-4.px-md-0(data-aos="fade-right")
             img(src='@/assets/curso/temas/tema5/img5.svg' alt='Imagen decorativa')
@@ -199,7 +205,7 @@
               .row 
                 p.mb-0 El olfatómetro mezcla aire puro con la muestra de aire contaminado por malos olores en diferentes proporciones y lo ofrece a los panelistas a través de unas boquillas. El panelista debe distinguir por cuál de ellas sale el aire contaminado y las respuestas de cada uno de ellos son recogidas y procesadas por un sistema informático el cual calcula la concentración de olor de la muestra.
               .row  
-                p.mb-0 La secuencia de ofrecimientos comienza por diluciones muy elevadas y por tanto inodoras a los panelistas hasta diluciones menores hasta que el panelista empieza a distinguir el olor. Para evitar que los panelistas den resultados al azar, el olfatómetro ofrece junto con las muestras, muestras de aire puro inodoro. La norma exige que los panelistas identifiquen mas del 80% de las muestras de aire puro
+                p.mb-0 La secuencia de ofrecimientos comienza por diluciones muy elevadas y por tanto inodoras a los panelistas hasta diluciones menores hasta que el panelista empieza a distinguir el olor. Para evitar que los panelistas den resultados al azar, el olfatómetro ofrece junto con las muestras, muestras de aire puro inodoro. La norma exige que los panelistas identifiquen más del 80% de las muestras de aire puro.
               .row  
                 p.mb-0 Todo este procedimiento de medición (olfatometría dinámica) está continuamente sometido a una calibración de manera que los resultados de cualquier estudio sean comparables y confiables.
 
@@ -218,7 +224,7 @@
             i.fas.fa-check
             | La sensibilidad olfativa de los panelistas.
         p La calibración del olfatómetro o equipo de dilución, este equipo debe realizar regularmente (al menos una vez al año) la calibración se realiza empleando un material trazador adecuado como por ejemplo monóxido de carbono y una incertidumbre expandida inferior al 3%.    
-        p Por tanto, una de las más importantes seria entonces, la calibración o estado olfativo de los panelistas, para ello se toma como referencia la NTC 4503 o en su defecto la norma UNE-EN-13725, que define todas las condiciones, calibraciones y, en definitiva, el protocolo analítico para la determinación de la concentración de olor.
+        p Por tanto, una de las más importantes sería entonces, la calibración o estado olfativo de los panelistas, para ello se toma como referencia la NTC 4503 o en su defecto la norma UNE-EN-13725, que define todas las condiciones, calibraciones y, en definitiva, el protocolo analítico para la determinación de la concentración de olor.
         p Como es evidente el umbral de olor es muy diferente entre los distintos individuos. Esta selección de individuos se realiza utilizando un gas de referencia, el n-butanol en nitrógeno (con una incertidumbre expandida inferior al 5%), para seleccionar candidatos con umbrales de percepción para el n-butanol entre 20 a 80 ppb y con una baja desviación estándar entre sus percepciones.
         p De acuerdo a la norma se determinarán, al menos, 10 estimaciones del umbral individual de cada panelista para el gas de referencia recogidos en, al menos, 3 sesiones en días no consecutivos de esta manera se aseguran los criterios de sensibilidad y repetibilidad del detector: 
           b.t-green2 el olfato humano.
@@ -229,9 +235,8 @@
     .row.justify-content-center.mb-5
       .col-md-9(data-aos="fade-down")
         .titulo-sexto.color-acento-contenido.mb-4
-          p.mb-0 #[b Tabla 4] Niveles permisibles de inmisión
+          p.mb-0 #[b Tabla 4.] Niveles permisibles de inmisión
         h5.text-center.text-uppercase capitulo iii niveles permisibles de calidad del aire o inmisión de sustancias y mezclas de sustancias de olores ofensivos 
-        p.text-center Tabla 3. Niveles permisibles de calidad del aire o de inmisión de mezclas de
         .tabla-a.tema5.color-secundario
           table
             caption 
@@ -274,7 +279,7 @@
 
     .row.align-items-center.mb-4
       .col-md-7.mb-4(data-aos="fade-right")
-        p El análisis se proyecta en un modelo de dispersión para luego hacer la comparación de los resultados directamente con los estándares de concentración presentes en la tabla anteror, teniendo en cuenta el sector o proceso en el cual se hizo la medición de los olores ofensivos; en este caso la unidad de concentración está definida como 
+        p El análisis se proyecta en un modelo de dispersión para luego hacer la comparación de los resultados directamente con los estándares de concentración presentes en la tabla anterior, teniendo en cuenta el sector o proceso en el cual se hizo la medición de los olores ofensivos; en este caso la unidad de concentración está definida como 
           b OU<sub>E</sub>/m<sup>3</sup> 
           | (Unidad de Olor Europea).
         p La modelación de la información es importante, ya que los datos de entrada se convierten en insumo para hallar las concentraciones para finalmente comparar los valores umbrales con la normatividad. Por otro lado, si las muestras son obtenidas por otras técnicas cómo las analíticas, o muestreadores pasivos para medir sustancias de olores ofensivos, los resultados son comparados con los estándares de la siguiente tabla.
@@ -285,9 +290,8 @@
     .row.justify-content-center.mb-5
       .col-md-9(data-aos="fade-down")
         .titulo-sexto.color-acento-contenido.mb-4
-          p.mb-0 #[b Tabla 5] Niveles permisibles de calidad de aire
+          p.mb-0 #[b Tabla 5.] Niveles permisibles de calidad de aire
         h5.text-center.text-uppercase capitulo iii niveles permisibles de calidad del aire o inmisión de sustancias y mezclas de sustancias de olores ofensivos 
-        p.text-center Tabla 2. Niveles permisibles de calidad del aire o de inmisión para sustancias de olores ofensivos a condiciones de referencia (25°C y 760 mmHg)
         .tabla-a.tema5.color-secundario
           table
             thead
@@ -319,7 +323,7 @@
               tr
                 td.text-center 1400
                 td.text-center 1 hora
-        p.mb-0.p-2 * Cuando se utilicen muestreadores pasivos para la medición de las sustancias de la Tabla 2, el tiempo de exposición podrá estar entre 2 y 4 semanas.
+        p.mb-0.p-2 * Cuando se utilicen muestreadores pasivos para la medición de las sustancias de la Tabla 5, el tiempo de exposición podrá estar entre 2 y 4 semanas.
         figcaption.mt-2 
           p.mb-0 Tomado de Resolución 1543 de 2013, p.4 
 

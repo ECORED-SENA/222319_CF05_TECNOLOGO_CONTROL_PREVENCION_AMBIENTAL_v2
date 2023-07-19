@@ -65,7 +65,7 @@ export default {
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Parámetros in situ olores y ruido',
+        titulo: 'Parámetros <em>in situ</em> olores y ruido',
         desarrolloContenidos: true,
       },
       {

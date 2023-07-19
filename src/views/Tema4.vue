@@ -30,12 +30,16 @@
       .col-md-4.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/temas/tema4/img.png' alt='')
       .col-md-8.mb-4(data-aos="fade-left")
-        .bloque-texto-c.bg-green9.box-shadow.p-4
-          i.fas.fa-quote-right
-          p “Si el sonómetro dispone de memoria, almacene los resultados para una comprobación posterior. Anote el número de memoria o registro y el lugar de medida. Es importante que siempre conserve todos los datos y una ficha de campo bien documentada. Si las medidas fueron almacenadas en el sonómetro, imprima los resultados directamente o almacene los datos en su ordenador personal mediante programas informáticos que aseguren que los datos no puedan ser manipulados de forma accidental o voluntaria.” 
-          h5 (Consejería de medioambiente, 2007, p.15)
-
-    p.mb-4(data-aos="fade") Cuando se realizan los estudios o mediciones de ruido el personal técnico encargado de efectuar las mediciones deberá recabar del cliente toda la información que le sea necesaria la cual es significativa antes, durante y después de la medición. Se puede decir que la entrega de documentación de muestreo se basa en la siguiente información.
+        .bloque-texto-b.bg-green9.box-shadow.p-4
+          .bloque-texto-b__texto
+            i.fas.fa-quote-left
+            p “Si el sonómetro dispone de memoria, almacene los resultados para una comprobación posterior. Anote el número de memoria o registro y el lugar de medida. Es importante que siempre conserve todos los datos y una ficha de campo bien documentada. Si las medidas fueron almacenadas en el sonómetro, imprima los resultados directamente o almacene los datos en su ordenador personal mediante programas informáticos que aseguren que los datos no puedan ser manipulados de forma accidental o voluntaria.” 
+            br
+            br
+            h5 (Consejería de medioambiente, 2007, p.15)
+            i.fas.fa-quote-right
+        
+    p.mb-4(data-aos="fade") Cuando se realizan los estudios o mediciones de ruido el personal técnico encargado de efectuar las mediciones deberá recabar del cliente toda la información que le sea necesaria la cual es significativa antes, durante y después de la medición. Se puede decir que la entrega de documentación de muestreo se basa en la siguiente información:
 
     .row.align-items-center
       .col-md-8.mb-4(data-aos="fade-right")
@@ -87,7 +91,7 @@
         figcaption.mt-2
           p.mb-0 Tomado de ICONTEC (2004, p.15)
 
-    p.mb-4(data-aos="fade") Para el monitoreo de ruido , como tal no existe muestra, por tanto no existe rotulación y traslado de la misma a laboratorio, se realiza el muestreo in situ y se toma como tal los datos , los cuales requiere ser custodiados y protegidos, ya que esta es la información del muestreo. La custodia, entonces, radica en los registros realizados en campo y sus medios de soporte sean digitales o medios escritos como libretas de campo, etc. Se requiere custodiar los archivos contra robo, cambio de datos, o que se refundan con otros datos o extravíen.
+    p.mb-4(data-aos="fade") Para el monitoreo de ruido, como tal no existe muestra, por tanto no existe rotulación y traslado de la misma a laboratorio, se realiza el muestreo #[em in situ] y se toma como tal los datos , los cuales requiere ser custodiados y protegidos, ya que esta es la información del muestreo. La custodia, entonces, radica en los registros realizados en campo y sus medios de soporte sean digitales o medios escritos como libretas de campo, etc. Se requiere custodiar los archivos contra robo, cambio de datos, o que se refundan con otros datos o extravíen.
 
 
 

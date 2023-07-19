@@ -10,7 +10,7 @@
 
     .row.align-items-center
       .col-md-5.mb-4(data-aos="fade-right")
-        p Cuando se realizan las mediciones de ruido en campo se debe tener presente las condiciones meteorológicas, especialmente la velocidad y dirección del viento, este parámetro medido in situ es fundamental para tener presentes posibles variaciones en la medición el viento influye sustancialmente en las mediciones del ruido, por esta razón el protocolo de medición de ruido establece como condición la medición de este parámetro siempre y cuando la velocidad del viento no supere los 3m/s.
+        p Cuando se realizan las mediciones de ruido en campo se debe tener presente las condiciones meteorológicas, especialmente la velocidad y dirección del viento, este parámetro medido #[em in situ] es fundamental para tener presentes posibles variaciones en la medición el viento influye sustancialmente en las mediciones del ruido, por esta razón el protocolo de medición de ruido establece como condición la medición de este parámetro siempre y cuando la velocidad del viento no supere los 3m/s.
         p Ahora bien, antes de entrar en materia, se debe conocer qué es el viento. Desde la antigüedad, los marineros utilizaron velas para aprovechar la fuerza del viento y alcanzar la mayor velocidad en sus travesías; y aunque el viento es importante para impulsar las embarcaciones, está relacionado con otros fenómenos atmosféricos siendo el principal generador del oleaje. 
       .col-md-7.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema3/img.png' alt='')
@@ -20,11 +20,11 @@
         img(src='@/assets/curso/temas/tema3/img2.png' alt='')
       .col-md-8.mb-4(data-aos="fade-left")
         .bg-green6.p-4.mb-4
-          p.mb-0 Uno de los parámetros que se mide In situ, es la velocidad con la que el viento circula, por eso es importante cuantificar este parámetro. Antes de ejecutar cualquier tipo de medición de ruido, también se debe tener presente las condiciones meteorológicas relacionadas con la lluvia, lloviznas, truenos, y en algunos casos específicos la caída de granizo, pues estas condiciones afectan sustancialmente las mediciones del ruido.
+          p.mb-0 Uno de los parámetros que se mide #[em In situ], es la velocidad con la que el viento circula, por eso es importante cuantificar este parámetro. Antes de ejecutar cualquier tipo de medición de ruido, también se debe tener presente las condiciones meteorológicas relacionadas con la lluvia, lloviznas, truenos, y en algunos casos específicos la caída de granizo, pues estas condiciones afectan sustancialmente las mediciones del ruido.
         p La medición del parámetro meteorológico (viento), se debe realizar con un 
           b.t-green2 anemómetro 
           | o en su defecto con una estación meteorológica que mida lo mida, ¡el parámetro no debe ser superior a 3 metros sobre segundo con el fin tener mediciones óptimas …tenga cuidado! Si durante el desarrollo de la medición esta variable supera la condición anteriormente definida, el muestreo debe ser detenido o reprogramado según el caso.
-        p Este instrumento mide la velocidad con la que el viento circula. Exprésa la velocidad en metros por segundo o en nudos (millas náuticas sobre h). El anemómetro es un instrumento que consiste en 3 o 4 cazoletas montada sobre un eje vertical girando a la velocidad que sopla el viento. Este instrumento detecta la revoluciones a las que gira y de esa manera marca la velocidad.  
+        p Este instrumento mide la velocidad con la que el viento circula. Expresa la velocidad en metros por segundo o en nudos (millas náuticas sobre h). El anemómetro es un instrumento que consiste en 3 o 4 cazoletas montada sobre un eje vertical girando a la velocidad que sopla el viento. Este instrumento detecta la revoluciones a las que gira y de esa manera marca la velocidad.  
 
 
     .row.fondo-tema3.align-items-center.py-5.mb-5
@@ -38,7 +38,7 @@
           .col-md-5.mb-4(data-aos="fade-left")
             img(src='@/assets/curso/temas/tema3/img3.png' alt='')
 
-          p.mb-4(data-aos="fade") Hay varios tipos de anemómetros disponibles en el mercado, algunos son digitales mientras que otros son mecánicos, pero hay también anemómetros de interferómetro del láser y modelos ultrasónicos. Estos son algunos ejemplos.
+          p.mb-4(data-aos="fade") Hay varios tipos de anemómetros disponibles en el mercado, algunos son digitales mientras que otros son mecánicos, pero hay también anemómetros de interferómetro del láser y modelos ultrasónicos. Estos son algunos ejemplos:
 
           .col-md-10.mb-4.px-md-0(data-aos="fade-down")
             SlyderE.bg-white.box-shadow.p-4.p-md-5(indicadores="derecha")
