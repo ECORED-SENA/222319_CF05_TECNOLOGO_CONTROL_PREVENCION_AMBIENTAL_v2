@@ -11,9 +11,9 @@
       .col-lg-12.col-12.px-lg-5.px-4
         .row.justify-content-center.align-items-center
 
-          .col-md-5.mb-4(data-aos="fade-right")
+          .col-lg-5.mb-4(data-aos="fade-right")
             p Cuando se realizan los diferentes trabajos de campo, para la toma de muestras, es importante que aquellas personas que van a realizar esta labor, logren identificar los peligros y valorar los riesgos presentes en un ambiente que ponen en entredicho la seguridad y su salud. Es importante contextualizar estos peligros para establecer los respectivos controles que deben realizarse, ya que este trabajo expone de manera directa a los trabajadores que ejecutan estas actividades y los expone en situaciones complejas que demandan bastantes cuidados, más aún cuando no se conocen los conceptos básicos de peligro y riesgo.
-          .col-md-7.mb-4(data-aos="fade-left")
+          .col-lg-7.mb-4(data-aos="fade-left")
             img(src='@/assets/curso/temas/tema1/img.png' alt='')
 
           p.mb-4(data-aos="fade") El conocimiento de los principales peligros y cómo valorar los riesgos a nivel ambiental, en actividades de campo, deben estar basados en la guía técnica colombiana GTC-45 2012: Guía para la identificación de peligros y valoración de riesgos. A continuación se expone algunos conceptos base, según ICONTEC (2012, p.1 - 4) como contexto de esta área.
@@ -52,16 +52,12 @@
                 img.mb-3.mx-auto(src='@/assets/curso/temas/tema1/ico4.svg' alt='' style="width:85px;")
                 h5 Equipo de protección personal 
                 p Dispositivo que sirve como medio de protección ante un peligro y que para su funcionamiento requiere de la interacción con otros elementos. Ejemplo, sistema de detección contra caídas.
-              
-              
-              
-              
-
+      
 
     p.mb-4(data-aos="fade") Es importante identificar los peligros y sobre todo valorar los riesgos, según ICONTEC la GCT 45 en Seguridad y salud Ocupacional (S y SO). También el hecho de entender los peligros que se pueden generar en el desarrollo de las actividades, con el fin de que la organización pueda establecer los controles necesarios, al punto de asegurar que cualquier riesgo sea aceptable.(ICONTEC, 2012, p. 4). De ahí que la valoración de los riesgos se debe convertir en una actividad importante en el desarrollo de cualquier trabajo, por sencillo que este parezca, tal y como se describe en el recurso.
 
     .row.justify-content-center.mb-4
-      .col-md-3.mb-4(data-aos="fade-right")
+      .col-md-3.col-9.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/temas/tema1/img2.png' alt='')
       .col-md-9.mb-4(data-aos="fade-left")
         TabsA.tema5.color-acento-botones.mb-4(data-aos="fade-down") 
@@ -101,12 +97,11 @@
                 i.fas.fa-check
                 | Demostrar a las partes interesadas que se han identificado todos los peligros asociados al trabajo y que se han dado los criterios para la implementación de las medidas de control necesarias para proteger la seguridad y la salud de los trabajadores.
 
-
     .row.justify-content-center
-      .col-md-10
+      .col-lg-10
         .bg-primario.tarjeta.mb-4(data-aos="fade-down")
           .row.align-items-center.p-4.p-md-0
-            .col-md-2.col-5
+            .col-md-2.col-4
               img.pt-md-3.ps-md-4(src='@/assets/curso/temas/tema1/advertencia.svg' alt='')
             .col-md-9.py-3.text-white.pe-md-4
               h5 Riesgo vs. Peligro
@@ -125,28 +120,28 @@
       .col-lg-12.col-12.px-lg-5.px-4
         .row.justify-content-center.align-items-center
 
-            .col-md-3.col-6.mb-4.mb-md-0(data-aos="fade-right") 
+            .col-lg-3.col-6.col-md-4.mb-4.mb-lg-0(data-aos="fade-right") 
               img(src='@/assets/curso/temas/tema1/img3.svg' alt='')
-            .col-md-9(data-aos="fade-left")
+            .col-lg-9(data-aos="fade-left")
               .row
-                .col-md-4.mb-4
+                .col-lg-4.col-md-6.mb-4
                   .border-green.tarjeta.h-100.p-4
                     img.mb-3(src='@/assets/curso/temas/tema1/ico9.svg' alt='' style="width:55px;")
                     p.mb-0 #[b La fuente:] se establece como el factor determinante de origen que genera el peligro. 
-                .col-md-4.mb-4
+                .col-lg-4.col-md-6.mb-4
                   .border-green.tarjeta.h-100.p-4
                     img.mb-3(src='@/assets/curso/temas/tema1/ico10.svg' alt='' style="width:55px;")
                     p.mb-0 #[b La situación:] se relaciona con la actividad, el proceso o la condición. 
-                .col-md-4.mb-4
+                .col-lg-4.col-md-6.mb-4
                   .border-green.tarjeta.h-100.p-4
                     img.mb-3(src='@/assets/curso/temas/tema1/ico11.svg' alt='' style="width:55px;")
                     p.mb-0 #[b El acto potencial:] se convierte en ese comportamiento inseguro del operador o trabajador en la actividad.
               .bg-white.tarjeta.p-4.mb-4
                 p.mb-0 La Guía Técnica Colombiana GTC 45 se basa en principios fundamentales de la norma NTC-OHSAS 18001, hoy (ISO 45001) y en el proceso de gestión del riesgo desarrollado en la norma BS 8800 (British Standard)
               .row.justify-content-center
-                .col-md-5
+                .col-lg-5.col-md-6
                   p Teniendo en cuenta la Guía Técnica Colombiana GTC 45 2012 para identificar los peligros, se recomienda plantear una serie de preguntas como las siguientes:
-                .col-md-5
+                .col-lg-5.col-md-6
                   ul.lista-ul--color.color-secundario.fa-ul
                     li.mb-0.t-green
                       i.fas.fa-check
@@ -167,13 +162,13 @@
     p.mb-4(data-aos="fade") La clasificación de los peligros se establece en tres categorías:
 
     .row.justify-content-center.text-center(data-aos="fade-down")
-      .col-md-3.mb-4
+      .col-lg-3.col-md-4.mb-4
         .border-green2.bg-green7.tarjeta.h-100.p-4
           p.mb-0 #[b Condición de seguridad:] mecánico, eléctrico, físico-químico, locativo, alturas.
-      .col-md-3.mb-4
+      .col-lg-3.col-md-4.mb-4
         .border-green2.bg-green7.tarjeta.h-100.p-4
           p.mb-0 #[b Condición psicosocial y ergonómica:] psicolaboral, biomecánico.
-      .col-md-3.mb-4
+      .col-lg-3.col-md-4.mb-4
         .border-green2.bg-green7.tarjeta.h-100.p-4
           p.mb-0 #[b Condición de higiene:] físico, químico y biológico.
 
@@ -181,15 +176,15 @@
       b.t-green2 los peligros originan un accidente laboral y otros dan origen a lo que se conoce como una enfermedad laboral.
 
     .row.justify-content-center
-      .col-md-9(data-aos="fade-right")
+      .col-lg-9(data-aos="fade-right")
         .bg-primario.tarjeta.mb-4
           .row.align-items-center.p-4.p-md-0
-            .col-md-2.col-5
+            .col-md-2.col-4
               img.pt-md-4.ps-md-4(src='@/assets/curso/temas/tema1/peligro.svg' alt='')
             .col-md-9.py-3.pt-4.text-white.pe-md-4
               h5 Peligro en campo 
               p.mb-0 Para profundizar cómo se relaciona el peligro con el trabajo de campo, se ejemplifica el caso de un aforo de caudal en un rio, video que puede consultar en el material de apoyo. También se sugiere estudiar la tabla correspondiente al anexo A de la GTC 45 que resume los diferentes peligros dependiendo de su categorización.
-      .col-md-3(data-aos="fade-left")
+      .col-lg-3.col-8(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema1/img4.png' alt='')
 
 
@@ -228,12 +223,12 @@
     p.mb-4(data-aos="fade") Para evaluar el nivel de riesgo se tiene en cuenta la probabilidad y la consecuencia. Así mismo conceptualmente en la GTC 45 el NR (nivel de riesgo) se determina de la siguiente manera:
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
-      .col-md-9.bg-green7.tarjeta.p-4
+      .col-lg-9.bg-green7.tarjeta.p-4
         .row
           .col-md-7
             .row
               .col-md-3.mb-4
-                .tarjeta.bg-green12.p-3.h-100.d-flex.align-items-center 
+                .tarjeta.bg-green12.p-lg-3.h-100.d-flex.align-items-center 
                   h5.text-center.mb-0 Evaluar el riesgo
               .col-md-9.mb-4
                 p.mb-0 #[b NR = NP x NC]
@@ -294,9 +289,9 @@
       h2 1.3 Medio ambiente, seguridad y salud en el trabajo
 
     .row.justify-content-center.mb-4.mb-md-2
-      .col-md-5.mb-4(data-aos="fade-right")
+      .col-lg-5.col-8.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/temas/tema1/img6.png' alt='')
-      .col-md-7.mb-4(data-aos="fade-left")
+      .col-lg-7.mb-4(data-aos="fade-left")
         p La capacitación tiene como propósito el desarrollo de habilidades y capacidades de todo el personal con el fin de formar un talento humano más competente y hábil. Además, de buscar promocionar la salud, el autocuidado y prevenir la enfermedad y los riesgos.
         p Sin embargo, más allá de esto, se busca estimular el interés de todos sobre los beneficios de aplicar el sistema de gestión, incentivar la participación en las diferentes actividades sobre autocuidado, factores de riesgo y condiciones inseguras, mejorar el clima laboral, la productividad, la salud física y mental, y mejorar la capacidad de los empleados para identificar y reportar factores de riesgos presentes en su labor.
         .bg-green7.p-4
@@ -304,10 +299,10 @@
     
     p.mb-4(data-aos="fade") La capacitación del personal de toma de muestras olores y ruido también requiere de capacitación en el tema de muestreo, aunque no existe todavía norma de competencia laboral que obligue la normativa. Sin embargo, para el personal que realice labor de campo en olores, ya sea para toma de muestra o elaboración de encuestas, la Resolución 1541 de 2013 establece:
 
-    TabsC.color-acento-botones
+    TabsC.color-acento-botones.mb-4
       .row.p-4.p-md-5.bg-green9(titulo="Olores ofensivos")
         h4 Olores ofensivos
-        .col-md-7.mb-4.mb-md-0
+        .col-lg-7.mb-4.mb-md-0
           p 
             b Personal con experiencia en comunidades 
             | La NTC 6012-1 establece que el aseguramiento de la calidad de los datos se logra aplicando los criterios y requisitos establecidos previamente, en tal sentido, la planificación y ejecución de la encuesta debe realizarse por 
@@ -316,17 +311,17 @@
           p 
             b Identificación del personal responsable 
             | Es muy útil identificar las personas encargadas de desarrollar las acciones del plan de olores molestos, sus tareas específicas y el momento en que ellas son terminadas. (Ministerio del medio Ambiente, 2014, p.52)
-        .col-md-5
+        .col-lg-5
           img(src='@/assets/curso/temas/tema1/tab-img1.png' alt='')
       .row.p-4.p-md-5.bg-green9(titulo="Ruidos")  
         h4 Ruidos
-        .col-md-7.mb-4.mb-md-0
+        .col-lg-7.mb-4.mb-md-0
           p La Resolución 627 de 2006 y su protocolo no define literalmente el tipo de experiencia que necesita el personal que hace este tipo de trabajo. Sin embargo, es importante aclarar que los laboratorios acreditados en ese sector deben cumplir la NTC 17025 y por ende, la cualificación del personal en esta norma de calidad exige que su capacitación interna esté ligada a los protocolos que ellos establezcan y la norma que actualmente está en vigencia.
-        .col-md-5
+        .col-lg-5
           img(src='@/assets/curso/temas/tema1/tab-img2.png' alt='')
       .row.p-4.p-md-5.bg-green9(titulo="Consideración general")  
         h4 Consideración general
-        .col-md-7.mb-4.mb-md-0
+        .col-lg-7.mb-4.mb-md-0
           p Para cualquiera de los toma de muestra sea en olores y/o ruido es importante que toda organización defina un plan de capacitación de su personal en temas como:
           ul.lista-ul--color.color-secundario.ps-3.ps-md-4.fa-ul
             li.mb-1
@@ -345,7 +340,7 @@
               i.fas.fa-check
               | Normatividad aplicable, entre otros.
           p Lo anterior no solamente va a significar una mejora en su calidad y expectativas laborales, sino que se van a minimizar los errores involucrados en el proceso de toma, preservación y transporte de muestras.
-        .col-md-5
+        .col-lg-5
           img(src='@/assets/curso/temas/tema1/tab-img3.png' alt='')
 
 
@@ -363,7 +358,7 @@
     p.mb-4(data-aos="fade") A continuación se ilustran los principales EPP que se emplean en la labor para la toma de muestras de olores y ruido.
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
-      .col-md-9.tarjeta.fondo-imginfog.p-4.px-md-5
+      .col-lg-9.tarjeta.fondo-imginfog.p-4.px-md-5
         .title-imginfog.mb-2 Principales EPP
         ImagenInfograficaB.color-acento-botones.mb-4
           template(v-slot:imagen)
@@ -455,15 +450,15 @@
         .row 
           .col-md-6
             .row.mb-3.align-items-center
-              .col-md-1
+              .col-lg-1.col-md-2
                 .cuadro.bg-green11
-              .col-md-11
+              .col-lg-11.col-md-10
                 p.text-small.mb-0 Elementos de protección personal básicos 
           .col-md-6
             .row.mb-3.align-items-center
-              .col-md-1
+              .col-lg-1.col-md-2
                 .cuadro.bg-blue5
-              .col-md-11
+              .col-lg-11.col-md-10
                 p.text-small.mb-0 Clases de protectores y mantenimiento especifico
 
     p.mb-4(data-aos="fade") Los elementos de Protección personal, de acuerdo con Minsalud (2021) se convierten en herramientas indispensables que complementan el trabajo en campo por seguridad de los operadores es importante qué reconozcamos la importancia de cada 1 de estos elementos y la función que cumplen a la hora de realizar el trabajo en campo evitando así riesgos asociados a los diferentes peligros a los que se están expuestos en el campo laboral.

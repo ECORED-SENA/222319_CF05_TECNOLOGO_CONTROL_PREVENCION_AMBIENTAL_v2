@@ -11,13 +11,13 @@
     p.mb-4(data-aos="fade") En la recolección de las muestras el rotulado y posterior envasado se convierte en una actividad de vital importancia en la caracterización de los monitoreos; para este caso, se presenta cómo es que se rotula y se envasa las muestras de olores y de ruido.
 
     .row.mb-4
-      .col-md-6.mb-4(data-aos="fade-right")
+      .col-lg-6.mb-4(data-aos="fade-right")
         .tarjeta.bg-secundario.p-4.h-100
           img.mb-4.m-auto(src='@/assets/curso/temas/tema4/ico1.svg' alt='' style="width:110px;")
           h3.text-center Tratamiento de las muestras de ruido
           p En monitoreo de ruido a diferencia de otros parámetros, las muestras tomadas en campo leche no se deben caracterizar o generar algún tratamiento especial hablando físico químicamente por esa razón #[b no existe concepto] de rotulado ni envasado debido a que la información se establece de manera digital y se retiene en medios magnéticos o memorias internas del equipo en cuestión.
           p Sin embargo, los formatos de campo y material fotográfico registrado se deben cuidar teniendo en cuenta la cadena de custodia de material información requerida en el muestreo y posterior análisis en el laboratorio.
-      .col-md-6.mb-4(data-aos="fade-left")
+      .col-lg-6.mb-4(data-aos="fade-left")
         .tarjeta.bg-primario.p-4.text-white.h-100
           img.mb-4.m-auto(src='@/assets/curso/temas/tema4/ico2.svg' alt='' style="width:110px;")
           h3.text-center Tratamiento de las muestras de olores
@@ -55,7 +55,7 @@
             p Además, el técnico deberá recabar del cliente información adicional, como el tipo de actividad que se quiere estudiar y el horario de esta o el tipo de zonificación en la que se encuentra la actividad.
           .row(titulo="El laboratorio debe ser el garante")
             p Tanto el protocolo de medida, como las medidas incorporadas con posterioridad, se deben adecuar a la norma. Además, se ha de velar porque el conjunto y la localización de las medidas realizadas sea la correcta.
-      .col-md-4.mb-4(data-aos="fade-left")
+      .col-md-4.col-9.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema4/img2.png' alt='')
     
     p.mb-4(data-aos="fade") Luego de la recolección, las muestras deberían analizarse tan pronto como sea posible después del muestreo. El intervalo entre el muestreo y la medida no debe exceder de 30 horas. Además, «durante el transporte y almacenamiento, las muestras deben mantenerse a menos de 25ºC. La temperatura, sin embargo, debe mantenerse por encima del punto de rocío de las muestras para evitar condensación. Las muestras no deben estar expuestas a la luz solar directa, para minimizar las reacciones (foto)químicas y la difusión. Para cumplir con este criterio, lo más adecuado es el transporte de las bolsas de muestreo en contenedores isotermos, rígidos y ligeros.
@@ -66,8 +66,8 @@
       .col-md-8.mb-4(data-aos="fade-left")
         .bg-primario.tarjeta.mb-4(data-aos="fade-down")
           .row.align-items-center.p-4.p-md-0
-            .col-md-3.col-5
-              img.pt-md-2.px-md-3(src='@/assets/curso/temas/tema4/icono.svg' alt='')
+            .col-md-3.col-4
+              img.pt-lg-2.px-lg-3.ps-md-2(src='@/assets/curso/temas/tema4/icono.svg' alt='')
             .col-md-9.py-3.text-white.pe-md-4
               p.mb-0 #[b ¿Sabías qué?] 
               p.mb-0 Las bolsas en donde se capturan las muestras de olores son fabricados en un material de base polímero de Nalophan®. Las bolsas están diseñadas específicamente para responder a las exigencias de calidad de la norma EN 13725, especialmente para minimizar el riesgo de contaminación de muestras. Su tamaño puede variar 8, 10, 40, o 60 Lt
@@ -83,9 +83,9 @@
     p.mb-4(data-aos="fade") Luego la importancia de la cadena de custodia es garantizar el soporte de los datos y conclusiones a los que se llegue con el estudio o ensayo de muestreo de forma adecuada en una situación legal o reglamentaria, busca mantener registros que certifiquen que los procedimientos fueron desarrollados según condiciones técnicas y que los resultados son verídicos y fiables (ICONTEC, 2004, p.3). Un ejemplo de registro de cadena de custodia se presenta a continuación.
 
     .row.justify-content-center.mb-5
-      .col-md-8(data-aos="fade-down")
+      .col-lg-8(data-aos="fade-down")
         .titulo-sexto.color-acento-contenido.mb-2
-          p.mb-0 #[b Tabla 2] Ejemplo de registro de cadena de custodia
+          p.mb-0 #[b Tabla 3.] Ejemplo de registro de cadena de custodia
         figure
           img(src='@/assets/curso/temas/tema4/tabla.png' alt='Ejemplo de registro de cadena de custodia')
         figcaption.mt-2

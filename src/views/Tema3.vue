@@ -9,10 +9,10 @@
 
 
     .row.align-items-center
-      .col-md-5.mb-4(data-aos="fade-right")
+      .col-lg-5.mb-4(data-aos="fade-right")
         p Cuando se realizan las mediciones de ruido en campo se debe tener presente las condiciones meteorológicas, especialmente la velocidad y dirección del viento, este parámetro medido #[em in situ] es fundamental para tener presentes posibles variaciones en la medición el viento influye sustancialmente en las mediciones del ruido, por esta razón el protocolo de medición de ruido establece como condición la medición de este parámetro siempre y cuando la velocidad del viento no supere los 3m/s.
         p Ahora bien, antes de entrar en materia, se debe conocer qué es el viento. Desde la antigüedad, los marineros utilizaron velas para aprovechar la fuerza del viento y alcanzar la mayor velocidad en sus travesías; y aunque el viento es importante para impulsar las embarcaciones, está relacionado con otros fenómenos atmosféricos siendo el principal generador del oleaje. 
-      .col-md-7.mb-4(data-aos="fade-left")
+      .col-lg-7.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema3/img.png' alt='')
 
     .row.justify-content-center.mb-4
@@ -40,7 +40,7 @@
 
           p.mb-4(data-aos="fade") Hay varios tipos de anemómetros disponibles en el mercado, algunos son digitales mientras que otros son mecánicos, pero hay también anemómetros de interferómetro del láser y modelos ultrasónicos. Estos son algunos ejemplos:
 
-          .col-md-10.mb-4.px-md-0(data-aos="fade-down")
+          .col-lg-10.mb-4.px-md-0(data-aos="fade-down")
             SlyderE.bg-white.box-shadow.p-4.p-md-5(indicadores="derecha")
               .row
                 .col-md-7
@@ -67,11 +67,11 @@
                 .col-md-5 
                   img(src='@/assets/curso/temas/tema3/slide4.png' alt='')
 
-          .col-md-10.mb-5(data-aos="fade-down")
+          .col-lg-10.mb-5(data-aos="fade-down")
             .tarjeta.bg-degrade-green.p-3
               .row.justify-content-around.align-items-center
                 .col-3.col-sm-2.col-lg-2
-                  img.px-md-4(src="@/assets/curso/temas/tema2/pdf.svg")
+                  img.px-lg-4(src="@/assets/curso/temas/tema2/pdf.svg")
                 .col
                   .row.justify-content-between.align-items-center
                     .col.mb-3.mb-sm-0.text-white

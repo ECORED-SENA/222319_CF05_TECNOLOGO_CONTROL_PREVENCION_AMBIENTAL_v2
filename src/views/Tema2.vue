@@ -14,9 +14,9 @@
           
           p.mb-4(data-aos="fade") Antes de profundizar en los equipos de medición se hace necesario definir algunos conceptos básicos y relevantes que se emplean en las toma de muestras de ruido.
           
-          .col-md-3.mb-4.px-md-0(data-aos="fade-right")
+          .col-lg-3.col-md-5.col-7.mb-4.px-md-0(data-aos="fade-right")
             img(src='@/assets/curso/temas/tema2/img.png' alt='')
-          .col-md-7.mb-4.px-md-0(data-aos="fade-left")
+          .col-lg-7.mb-4.px-md-0(data-aos="fade-left")
             SlyderE.bg-white.box-shadow.p-4.px-md-5(indicadores="derecha")
               .row
                 h5 Sonido   
@@ -119,12 +119,12 @@
         h5 Meteorología
         .row
           .col-md-8
-            p.mb-0 Es el estudio de la atmósfera y sus fenómenos – especialmente las condiciones del tiempo y del clima – y las aplicaciones prácticas de este estudio. Además de la física, la química y la dinámica de la atmósfera, la meteorología abarca muchos de los efectos directos de la atmósfera en la superficie de la Tierra, los océanos y vida en general. (Organización Meteorológica Mundial, 2001)
+            p Es el estudio de la atmósfera y sus fenómenos – especialmente las condiciones del tiempo y del clima – y las aplicaciones prácticas de este estudio. Además de la física, la química y la dinámica de la atmósfera, la meteorología abarca muchos de los efectos directos de la atmósfera en la superficie de la Tierra, los océanos y vida en general. (Organización Meteorológica Mundial, 2001)
           .col-md-4
             img(src='@/assets/curso/temas/tema2/Meteorologia.png' alt='Meteorología') 
       .tarjeta.bg-green.p-4.p-md-5(titulo="Atmosféra")
         h5 Atmosféra
-        p.mb-0 Envoltura gaseosa que rodea la Tierra. Capa gaseosa que rodea nuestro planeta. Además de contener el aire, incluye partículas sólidas y líquidas en suspensión o aerosoles y nubes.
+        p Envoltura gaseosa que rodea la Tierra. Capa gaseosa que rodea nuestro planeta. Además de contener el aire, incluye partículas sólidas y líquidas en suspensión o aerosoles y nubes.
       .tarjeta.bg-green.p-4.p-md-5(titulo="Presión atmosférica")
         h5 Presión atmosférica
         p Presión (fuerza por unidad de área) ejercida por la atmósfera sobre cualquier superficie en virtud de su peso. Equivale al peso de una columna de aire de sección transversal unitaria que se extiende desde un nivel dado hasta el límite superior de la atmósfera.
@@ -136,7 +136,7 @@
               h5.text-center.mb-0 1 atmósfera  
           .col-md-4.mb-4
             .caja.p-3
-              h5.text-center.mb-0 Milemetros de mercurio 
+              h5.text-center.mb-0 Milímetros de mercurio 
             .caja.p-3
               h5.text-center.mb-0 760 mm de Hg
           .col-md-4.mb-4
@@ -250,11 +250,11 @@
       .col-lg-12.col-12.px-lg-5.px-4
         .row.justify-content-center.align-items-center
 
-          .col-md-10.mb-5(data-aos="fade-down")
+          .col-lg-10.mb-5(data-aos="fade-down")
             .tarjeta.bg-degrade-green.p-3
               .row.justify-content-around.align-items-center
                 .col-3.col-sm-2.col-lg-2
-                  img.px-md-4(src="@/assets/curso/temas/tema2/pdf.svg")
+                  img.px-lg-4(src="@/assets/curso/temas/tema2/pdf.svg")
                 .col
                   .row.justify-content-between.align-items-center
                     .col.mb-3.mb-sm-0.text-white
@@ -346,9 +346,9 @@
 
     .bg-primario.tarjeta(data-aos="fade-down")
       .row.align-items-center.p-4.p-md-0
-        .col-md-2.col-5.px-md-4
-          img.px-md-4.pt-md-3(src='@/assets/curso/temas/tema2/icono.svg' alt='')
-        .col-md-10.py-4.text-white.pe-md-5
+        .col-md-2.col-4.px-lg-4.ps-md-4
+          img.px-lg-4.pt-lg-3(src='@/assets/curso/temas/tema2/icono.svg' alt='')
+        .col-md-10.py-4.text-white.pe-lg-5.pe-md-4
           h5 Planos y cálculos
           p.mb-0 La interpretación de los planos y el cálculo de las escalas en la cartografía es un conocimiento que nos ayuda de diversas maneras. El video «El mundo no es como lo pintan» permite reforzar el proceso de aprendizaje en este tema junto con el video «Mapas y escalas (ejercicios resueltos)». Estos recursos se encuentran en el material de apoyo.
 
@@ -366,7 +366,7 @@
       img(src='@/assets/curso/temas/tema2/figura.svg' alt='La imagen presenta las cinco etapas para la realización de una toma de muestras ya sea de ruido u olor. Estas son: 1. Identificación del sitio de muestreo. 2. Alistamiento de los equipos, materiales e insumos para la toma. 3. Realizarción de un plan de muestreo. 4. Toma de la muestra. 5. Preservación y almacenamiento temporal. 6. Transporte. Desde la etapa tres se enfocan los esfuerzos tanto en la toma de muestra como en su cadena de custodia')
 
     .row.justify-content-center.mb-5
-      .col-md-4
+      .col-lg-4.col-md-8
         a.anexo(:href="obtenerLink('/downloads/Etapas_plan_de_muestreo.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
@@ -524,10 +524,10 @@
                     | Hora.
                   li.mb-0
                     i.fas.fa-check
-                    | Tiempo de Muestro.
+                    | Tiempo de muestra.
                   li
                     i.fas.fa-check
-                    | # de Muestras por foco.
+                    | # de muestras por foco.
                 p El objetivo último de un estudio olfatométrico es evaluar si las emisiones de una determinada instalación pueden ser responsables o no de quejas en la población vecina. A esta conclusión se llega con la interpretación de los valores de concentración de inmisión, habitualmente denominados mapas de olores.
     
     
@@ -584,7 +584,7 @@
     p.text-center.mb-4(data-aos="fade") Se profundiza más en la percepción al conocer cómo funciona el oído humano.
 
     .row.justify-content-center.mb-5
-      .col-md-9.tarjeta.bg-gray
+      .col-lg-9.tarjeta.bg-gray
         ImagenInfografica.color-acento-botones.p-3.p-md-5(data-aos="fade-down")
           template(v-slot:imagen)
             figure
@@ -722,13 +722,13 @@
     p.mb-4(data-aos="fade") Para este caso la medición por emisión de ruido se aplica directamente a las fuentes industriales dicha medición se debe establecer una distancia de 1.5 metros a partir de la fachada o perímetro específico del área a medir en este caso vamos a ver como es el procedimiento para hacer la medición por emisión de ruido, tal como lo presenta el gráfico.
 
     .row.justify-content-center(data-aos="fade-down")
-      .col-md-9
+      .col-lg-9
         .titulo-sexto.color-acento-contenido.mb-2
           p.mb-0 #[b Figura 1] Medición del ruido 
-      .col-md-6.px-md-0.mb-4
+      .col-lg-6.px-md-0.mb-4
         figure
           img(src='@/assets/curso/temas/tema2/fig1.svg' alt='Medición del ruido')
-      .col-md-3.px-md-0.mb-4
+      .col-lg-3.px-md-0.mb-4
         .bg-green7.p-4.p-md-5.h-100
           p.mb-0 La medición de la emisión de ruido se realiza a 1.5 m de la fachada de una edificación y a 1.20 m a partir del nivel mínimo donde se encuentre instalada la fuente de emisión de ruido.
     
@@ -736,11 +736,11 @@
       .col-lg-12.col-12.px-lg-5.px-4
         .row.justify-content-center.align-items-center
     
-          .col-md-10.mb-5(data-aos="fade-down")
+          .col-lg-10.mb-5(data-aos="fade-down")
             .tarjeta.bg-degrade-green.p-3
               .row.justify-content-around.align-items-center
                 .col-3.col-sm-2.col-lg-2
-                  img.px-md-4(src="@/assets/curso/temas/tema2/pdf.svg")
+                  img.px-lg-4(src="@/assets/curso/temas/tema2/pdf.svg")
                 .col
                   .row.justify-content-between.align-items-center
                     .col.mb-3.mb-sm-0.text-white
@@ -760,7 +760,7 @@
 
           p.mb-4(data-aos="fade") La separación que debe haber entre el técnico (y las demás personas, si las hubiera en el momento de la medición) y el sonómetro, debe ser de por lo menos 0.5 m. (Universidad de Medellín, 2011), tal como se presenta en el siguiente gráfico.
           
-          .col-md-5
+          .col-lg-5
             .titulo-sexto.color-acento-contenido.mb-2
               p.mb-0 #[b Figura 2] Medición en campo 
             figure
@@ -770,9 +770,9 @@
     p.mb-4(data-aos="fade") Es importante cuando se realice la medición en el día o en la noche tener presente que las condiciones en donde el proyecto o la empresa esté funcionando con la mayor intensidad de ruido con el fin de medir en las condiciones reales de operación de la fuente.
 
     .row.justify-content-center.mb-4
-      .col-md-4.mb-4(data-aos="fade-right")
+      .col-lg-4.col-8.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/temas/tema2/img12.png' alt='')
-      .col-md-8.mb-4(data-aos="fade-left")
+      .col-lg-8.mb-4(data-aos="fade-left")
         p También, se deben realizar por punto, dos procesos de medición de una hora de captura de información o a intervalos de 15 minutos (Una medición con la fuente de emisión operando en su máximo nivel de producción o de emisión de ruido y una Medición (con la fuente de emisión en condiciones neutras de operación o mejor dicho sin la emisión de ruido generado). Todo esto, con el fin de determinar el ruido residual.
         .bg-degrade-green.tarjeta.p-4
           h3.text-white Glosario – Parámetros de medición de ruido 
@@ -820,21 +820,21 @@
         p Hay que obtener un solo valor con las mediciones de cada intervalo de tiempo, si es que las mediciones se hicieron por intervalos, para el LAeq,1h, LAeq,1h, Residual (o nivel percentil 90) para las mediciones con ponderación temporal lenta (S), de acuerdo con la siguiente ecuación:
         p En la cual: 
         .row.justify-content-center.mb-4
-          .col-md-3
+          .col-lg-3.col-md-6
             img(src='@/assets/curso/temas/tema2/acord-form1.png', alt='Fórmula')
         p.mb-0 #[b LAeq,1h] = Nivel de presión sonora continuo equivalente promedio, dB(A). 
         p.mb-0 #[b LAeq,Ti] = Nivel de presión sonora continuo equivalente de cada evento, dB(A). 
         p #[b Ti]= Intervalo de tiempo del evento individual, min. 
         p Ahora, si los intervalos de tiempo fueron iguales, la ecuación anterior se puede simplificar de la siguiente manera: 
         .row.justify-content-center.mb-4
-          .col-md-3
+          .col-lg-3.col-md-6
             img(src='@/assets/curso/temas/tema2/acord-form2.png', alt='Fórmula')
         p.mb-0 En la cual: 
         p #[b N ] = Número de mediciones.
       .row(titulo="Cálculo emisión o Aporte de ruido")
         p Al obtener los registros de los decibeles producto de la medición de ruido durante el monitoreo, el cálculo de la emisión o aporte de ruido de la fuente se obtiene al restar logarítmicamente el nivel corregido de presión sonora continuo equivalente total con filtro de ponderación (A) del nivel corregido de presión sonora continuo equivalente residual con filtro de ponderación A, del cómo se expresa a continuación.
         .row.justify-content-center.mb-4
-          .col-md-5
+          .col-lg-5.col-md-9
             img(src='@/assets/curso/temas/tema2/acord-form3.png', alt='Fórmula')
         p Donde: 
         p.mb-0 #[b Leq emisión] = Nivel de emisión de ruido o aporte de la(s) fuente(s) de emisión de ruido con filtro de ponderación A, dB(A). 
@@ -844,7 +844,7 @@
         p Es importante tener presente que el punto donde se realizó la medición debe ser localizado, para posteriormente reconocerlo e identificarlo y así generar las respectivas observaciones que se deriven de los análisis que se concluyan posterior a la medición.
 
     .row.justify-content-center.mb-4
-      .col-md-3.mb-4(data-aos="fade-right")
+      .col-md-3.col-9.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/temas/tema2/img14.png' alt='')
       .col-md-9.mb-4(data-aos="fade-left")
         .bg-primario.tarjeta.mb-4(data-aos="fade-down")
@@ -874,7 +874,7 @@
           p(numero="7" titulo="Número de mediciones") El número mínimo de mediciones a ejecutar es uno (1), el cual consta de dos (2) procesos de medición de por lo menos quince (15) minutos de captura de información cada uno, uno con la(s) fuente(s) de emisión de ruido funcionando y otro con la(s) fuente(s) específica(s) ap.ada(s), en intervalos de tiempo distribuidos uniformemente en una hora, en el horario diurno o nocturno requerido. 
           p(numero="8" titulo="Interrupciones") Si durante las mediciones se presentan ruidos ocasionales que no pertenecen a la fuente objeto de evaluación, como por ejemplo sirenas, altavoces, etc., éstos no se deben tener en cuenta. 
           p(numero="9" titulo="Subsector restrictivo") Cuando la emisión de ruido en un sector o subsector trascienda a sectores o subsectores vecinos o inmersos en los estándares máximos permisibles de emisión de ruido son aquellos que corresponden al sector o subsector más restrictivo. 
-      .col-md-4.mb-4(data-aos="fade-left")
+      .col-md-4.col-9.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema2/img15.png' alt='')
 
     .row.fondo3-tema2-2.align-items-center.py-5.pb-4.mb-4
@@ -897,7 +897,7 @@
     p.mb-4(data-aos="fade") Para entender cómo funciona el sentido del olfato se expone su estructura y las partes principales, según el portal web Partesdel.com (2017).
 
     .row.justify-content-center.mb-5
-      .col-md-9.tarjeta.bg-gray
+      .col-lg-9.tarjeta.bg-gray
         ImagenInfografica.color-acento-botones.p-3.p-md-5(data-aos="fade-down")
           template(v-slot:imagen)
             figure
@@ -929,13 +929,13 @@
             p Estos se hallan en la parte superior de las fosas nasales. Aquí es donde el cornete superior es cubierto por la pituitaria amarilla y se crea la conexión con el bulbo olfatorio, estos tienen como función detectar los olores.
 
     .row.justify-content-center.mb-4
-      .col-md-3.mb-4(data-aos="fade-right")
+      .col-lg-3.col-5.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/temas/tema2/img17.png' alt='')
-      .col-md-9.mb-4(data-aos="fade-left")
+      .col-lg-9.mb-4(data-aos="fade-left")
         .tarjeta.bg-degrade-green.p-3.mb-4
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-2
-              img.px-md-3(src="@/assets/curso/temas/tema2/pdf.svg")
+              img.px-lg-3(src="@/assets/curso/temas/tema2/pdf.svg")
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0.text-white
@@ -972,7 +972,7 @@
       .col-md-9.mb-4(data-aos="fade-right")
         .bg-primario.tarjeta.mb-4
           .row.p-4.pt-0.p-md-0
-            .col-md-2.col-5
+            .col-md-2.col-4
               img.ps-md-4.pt-0(src='@/assets/curso/temas/tema2/olores.svg' alt='')
             .col-md-10.py-4.text-white.pe-md-5
               h5 Olores ofensivos
@@ -1041,7 +1041,7 @@
     p.mb-4(data-aos="fade") Las siguientes técnicas son las más empleadas en las mediciones de olores ofensivos, de acuerdo con el Ministerio del MinSalud, 2012, pp. 33-35).
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
-      .col-md-7
+      .col-lg-7
         ImagenInfografica.color-acento-botones
           template(v-slot:imagen)
             figure
@@ -1072,13 +1072,13 @@
 
 
     .row.justify-content-center.mb-2
-      .col-md-4.mb-4(data-aos="fade-right")
+      .col-md-4.col-9.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/temas/tema2/img20.png' alt='')
       .col-md-8.mb-4(data-aos="fade-left")
         .bg-primario.tarjeta.mb-4
           .row.align-items-center.p-4.p-md-0
-            .col-md-3.col-5
-              img.pt-md-3.px-md-4(src='@/assets/curso/temas/tema2/icono2.svg' alt='')
+            .col-md-3.col-4
+              img.pt-lg-3.px-lg-4.ps-md-3(src='@/assets/curso/temas/tema2/icono2.svg' alt='')
             .col-md-9.py-4.text-white.pe-md-5
               h5 Formación y emisión de olores
               p.mb-0 Se sugiere revisar el documento audiovisual «Formación y emisión de olores: caracterización y evaluación de impacto» que se encuentra en el material de apoyo, para fortalecer lo hasta ahora aprendido.
@@ -1101,9 +1101,9 @@
     p.mb-4(data-aos="fade") Para resumir los métodos aplicables para la medición de mezclas de olores ofensivos, el protocolo de olores ofensivos del MADS (MinAmbiente, 2014), se sintetizan en la siguiente tabla:
 
     .row.justify-content-center.mb-5
-      .col-md-9(data-aos="fade-down")
+      .col-lg-9(data-aos="fade-down")
         .titulo-sexto.color-acento-contenido.mb-2
-          p.mb-0 #[b Tabla 1] Métodos para la medición de mezclas de sustancias, según el tipo de fuente
+          p.mb-0 #[b Tabla 1.] Métodos para la medición de mezclas de sustancias, según el tipo de fuente
         .tabla-a.tema5.color-secundario
           table
             caption 
@@ -1143,13 +1143,13 @@
     p.mb-4(data-aos="fade") En el caso de que, en cualquiera de las técnicas de muestreo, se requiera llevar a cabo una dilución en campo, el equipo debe cumplir con los mismos requisitos de exactitud y precisión, que se aplican al olfatómetro.
 
     .row.justify-content-center.mb-2
-      .col-md-4.mb-4(data-aos="fade-right")
+      .col-md-4.col-9.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/temas/tema2/img22.png' alt='')
       .col-md-8.mb-4(data-aos="fade-left")
         p Por otro lado, durante el muestreo es necesario la medida de una serie de parámetros (temperatura, presión atmosférica, caudal, humedad, etc.) que se utilizarán posteriormente para el cálculo de la emisión de olor de cada foco. Para asegurar la calidad y fiabilidad de las medidas, los instrumentos de medida también deben pasar unas calibraciones periódicas y cumplir los correspondientes criterios de calidad.
         .bg-primario.tarjeta.mb-4
           .row.align-items-center.p-4.p-md-0
-            .col-md-2.col-5
+            .col-md-2.col-4
               img.pt-md-3.ps-md-3(src='@/assets/curso/temas/tema2/icono3.svg' alt='')
             .col-md-10.py-4.text-white.pe-md-5
               h5 Formación y emisión de olores 
@@ -1168,7 +1168,7 @@
     p.mb-4.mb-md-5(data-aos="fade") Así, con el propósito de establecer una herramienta que permita minimizar los posibles sesgos en las quejas, se aplica una encuesta estandarizada que corresponde con la NTC 6012-1. A continuación se resume el contenido de la misma y los aspectos a tener en cuenta para su aplicación.
 
     .row.justify-content-center.mb-5
-      .col-md-5(data-aos="fade-down")
+      .col-lg-5(data-aos="fade-down")
         .titulo-sexto.color-acento-contenido.mb-2
           p.mb-0 #[b Figura 3] Esquema de vigilancia basada en quejas y reclamos.
         figure
@@ -1215,7 +1215,7 @@
         img(src='@/assets/curso/temas/tema2/img24.png' alt='')
 
     .row.justify-content-center.mb-2
-      .col-md-3.mb-4(data-aos="fade-right")
+      .col-md-3.col-9.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/temas/tema2/img25.png' alt='')
       .col-md-9.mb-4(data-aos="fade-left")
         TabsA.tema5.color-acento-botones.mb-4(data-aos="fade-down") 

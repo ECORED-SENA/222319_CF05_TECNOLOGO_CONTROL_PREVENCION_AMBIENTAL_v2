@@ -12,14 +12,14 @@
       .col-lg-12.col-12.px-lg-5.px-4
         .row.justify-content-center.align-items-center
 
-          .col-md-7.mb-4(data-aos="fade-right")
+          .col-lg-7.mb-4(data-aos="fade-right")
             img(src='@/assets/curso/temas/tema5/img.png' alt='Imagen decorativa')
-          .col-md-5.mb-4(data-aos="fade-left")
+          .col-lg-5.mb-4(data-aos="fade-left")
             p Los resultados obtenidos, en las medidas de la emisión de ruido, son utilizados para la verificación de sus niveles de emisión por parte de las fuentes. Las mediciones de la emisión de ruido se efectúan en un intervalo unitario de tiempo de medida, de acuerdo con lo establecido en el artículo 5 y con el procedimiento descrito en el Capítulo I del Anexo 3 de la Resolución 627 de 2006.
 
           p.mb-4(data-aos="fade") La emisión o aporte de ruido de cualquier fuente se obtiene al restar logarítmicamente, el ruido residual corregido, del valor del nivel de presión sonora corregido continuo equivalente ponderado A, - LRAeq,T -, como se expresa a continuación:
 
-          .col-md-6.mb-4
+          .col-lg-6.mb-4
             img(src='@/assets/curso/temas/tema5/form.svg', alt='Fórmula')
 
           h5.mb-4.text-center(data-aos="fade") Donde:
@@ -48,11 +48,11 @@
         | en caso de no poderse evaluar el ruido residual, se toma el nivel percentil L90 corregido y se utiliza a cambio del valor del ruido residual corregido.
 
     .row.justify-content-center
-      .col-md-10
+      .col-lg-10
         .bg-primario.tarjeta.mb-4(data-aos="fade-down")
           .row.align-items-center.p-4.p-md-0
-            .col-md-2.col-5
-              img.pt-md-3.px-md-3(src='@/assets/curso/temas/tema5/icono.svg' alt='Icono decorativo')
+            .col-md-2.col-4
+              img.pt-lg-3.px-lg-3.ps-md-3(src='@/assets/curso/temas/tema5/icono.svg' alt='Icono decorativo')
             .col-md-9.py-3.text-white.pe-md-4
               h5 Mediciones de emisión
               p.mb-0 Se sugiere ver el material audiovisual «Control a Niveles de Ruido y Contaminación Auditiva» que ilustra cómo se realizan las mediciones de emisión de ruido y cómo se comparan los resultados con la normatividad ambiental vigente en ruido.
@@ -60,9 +60,9 @@
     p.mb-4(data-aos="fade") La Resolución 627 de 2006 establece los estándares máximos permisibles de niveles de emisión de ruido expresados en decibeles ponderados A (dB(A)).
 
     .row.justify-content-center.mb-5
-      .col-md-9(data-aos="fade-down")
+      .col-lg-9(data-aos="fade-down")
         .titulo-sexto.color-acento-contenido.mb-2
-          p.mb-0 #[b Tabla 3] Estándares máximos permisibles de niveles de emisión de ruido
+          p.mb-0 #[b Tabla 3.] Estándares máximos permisibles de niveles de emisión de ruido
         .tabla-a.tema5.color-secundario
           table
             caption 
@@ -77,12 +77,12 @@
                 th Noche
             tbody
               tr
-                td Sector A. Tranquilidad y Silencio
+                td Sector A. Tranquilidad y silencio
                 td Hospitales bibliotecas, guarderías, sanatorios, hogares geriátricos.
                 td.text-center 55
                 td.text-center 50
               tr
-                td(rowspan="3") Sector B. Tranquilidad y Ruido Moderado
+                td(rowspan="3") Sector B. Tranquilidad y ruido moderado
                 td Zonas residenciales o exclusivamente destinadas para desarrollo habitacional, hotelería y hospedajes.
                 td.text-center(rowspan="3") 65
                 td.text-center(rowspan="3") 55
@@ -91,7 +91,7 @@
               tr
                 td Parques en zonas urbanas diferentes a los parques mecánicos al aire libre.
               tr
-                td(rowspan="5") Sector C. Ruído Intermedio Restringido
+                td(rowspan="5") Sector C. Ruído intermedio restringido
                 td Zonas con usos permitidos industriales, como industrias en general, zonas portuarias, parques industriales, zonas francas.
                 td.text-center 75
                 td.text-center 75
@@ -100,7 +100,7 @@
                 td.text-center 70
                 td.text-center 60
               tr 
-                td Zonas con usospermitidosde oficinas.
+                td Zonas con usos permitidos de oficinas.
                 td.text-center(rowspan="2") 65
                 td.text-center(rowspan="2") 55
               tr 
@@ -110,7 +110,7 @@
                 td.text-center 80
                 td.text-center 75
               tr
-                td(rowspan="3") Sector D. Zona Suburbana o Rural de Tranquilidad y Ruido Moderado
+                td(rowspan="3") Sector D. Zona suburbana o rural de tranquilidad y ruido moderado
                 td Residencial suburbana.
                 td.text-center(rowspan="3") 55
                 td.text-center(rowspan="3") 50
@@ -123,28 +123,28 @@
     p.mb-4(data-aos="fade") Frente a esto se deben tener en cuenta los siguientes aspectos de la misma (Resolución 627 de 2006 parágrafos del primero al cuarto):
 
     .row(data-aos="fade-down")
-      .col-md-3.mb-4
+      .col-lg-3.col-md-6.mb-4
         .bg-blue3.p-4.h-100
           .row.mb-4
-            .col-md-5.col-5
+            .col-md-5.col-4
               img(src='@/assets/curso/temas/tema5/ico1.svg' alt='Icono decorativo')
           p.mb-0 Cuando la emisión de ruido en un sector o subsector trascienda a sectores o subsectores vecinos o inmersos en él, los estándares máximos permisibles de emisión de ruido son aquellos que corresponden al sector o subsector más restrictivo. 
-      .col-md-3.mb-4  
+      .col-lg-3.col-md-6.mb-4  
         .bg-blue4.p-4.h-100
           .row.mb-4
-            .col-md-5.col-5
+            .col-md-5.col-4
               img(src='@/assets/curso/temas/tema5/ico2.svg' alt='Icono decorativo')
           p.mb-0 Las vías troncales, autopistas, vías arterias, vías principales, en general las vías, son objeto de medición de ruido ambiental, más no de emisión de ruido por fuentes móviles. 
-      .col-md-3.mb-4
+      .col-lg-3.col-md-6.mb-4
         .bg-blue3.p-4.h-100
           .row.mb-4
-            .col-md-5.col-5
+            .col-md-5.col-4
               img(src='@/assets/curso/temas/tema5/ico3.svg' alt='Icono decorativo')
           p.mb-0 Las vías troncales, autopistas, vías arterias y vías principales, en áreas urbanas o cercanas a poblados o asentamientos humanos, no se consideran como subsectores inmersos en otras zonas subsectores. 
-      .col-md-3.mb-4  
+      .col-lg-3.col-md-6.mb-4  
         .bg-blue4.p-4.h-100
           .row.mb-4
-            .col-md-5.col-5
+            .col-md-5.col-4
               img(src='@/assets/curso/temas/tema5/ico4.svg' alt='Icono decorativo')
           p.mb-0 En los sectores y/o subsectores en que los estándares máximos permisibles de emisión de ruido de la Tabla 1, son superados a causa de fuentes de emisión naturales, sin que exista intervención del hombre, estos valores son considerados como los estándares máximos permisibles, como es el caso de cascadas, sonidos de animales en zonas o parques naturales.
 
@@ -213,7 +213,7 @@
     p.mb-4(data-aos="fade") Para asegurar la calidad de la medición de olor se deberán calibrar los dos elementos que intervienen en la medición:
 
     .row.justify-content-center.mb-2
-      .col-md-4.mb-4(data-aos="fade-right")
+      .col-md-4.col-9.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/temas/tema5/img6.png' alt='Imagen decorativa')
       .col-md-8.mb-4(data-aos="fade-left")
         ul.lista-ul--color.color-secundario.ps-3.ps-md-4.fa-ul
@@ -233,7 +233,7 @@
     p.mb-4(data-aos="fade") Los estándares de Inmisión o niveles permisibles de inmisión de sustancias o mezclas de sustancias de olores ofensivos están contenidos en el Capítulo III de la Resolución 1541 de 2013. A continuación, se presentan los estándares de inmisión para la respectiva comparación de los resultados obtenidos por la metodología olfatometria dinámica.
 
     .row.justify-content-center.mb-5
-      .col-md-9(data-aos="fade-down")
+      .col-lg-9(data-aos="fade-down")
         .titulo-sexto.color-acento-contenido.mb-4
           p.mb-0 #[b Tabla 4.] Niveles permisibles de inmisión
         h5.text-center.text-uppercase capitulo iii niveles permisibles de calidad del aire o inmisión de sustancias y mezclas de sustancias de olores ofensivos 
@@ -278,17 +278,17 @@
 
 
     .row.align-items-center.mb-4
-      .col-md-7.mb-4(data-aos="fade-right")
+      .col-lg-7.mb-4(data-aos="fade-right")
         p El análisis se proyecta en un modelo de dispersión para luego hacer la comparación de los resultados directamente con los estándares de concentración presentes en la tabla anterior, teniendo en cuenta el sector o proceso en el cual se hizo la medición de los olores ofensivos; en este caso la unidad de concentración está definida como 
           b OU<sub>E</sub>/m<sup>3</sup> 
           | (Unidad de Olor Europea).
         p La modelación de la información es importante, ya que los datos de entrada se convierten en insumo para hallar las concentraciones para finalmente comparar los valores umbrales con la normatividad. Por otro lado, si las muestras son obtenidas por otras técnicas cómo las analíticas, o muestreadores pasivos para medir sustancias de olores ofensivos, los resultados son comparados con los estándares de la siguiente tabla.
-      .col-md-5.mb-4(data-aos="fade-left")
+      .col-lg-5.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema5/img7.png' alt='Imagen decorativa')
 
 
     .row.justify-content-center.mb-5
-      .col-md-9(data-aos="fade-down")
+      .col-lg-9(data-aos="fade-down")
         .titulo-sexto.color-acento-contenido.mb-4
           p.mb-0 #[b Tabla 5.] Niveles permisibles de calidad de aire
         h5.text-center.text-uppercase capitulo iii niveles permisibles de calidad del aire o inmisión de sustancias y mezclas de sustancias de olores ofensivos 
@@ -331,11 +331,11 @@
     p.mb-4(data-aos="fade") El procedimiento para la comparación de los valores de concentración con la norma está contenido en el protocolo de olores ofensivos numeral 2.5.1 Los niveles permisibles o de inmisión para sustancias generadoras de olores ofensivos se establecen a condiciones de referencia (25ºC y 760 mmHg), por lo tanto, es necesario expresar las concentraciones obtenidas en tales condiciones.
     
     .row.justify-content-center
-      .col-md-10
+      .col-lg-10
         .bg-primario.tarjeta.mb-4(data-aos="fade-down")
           .row.align-items-center.p-4.p-md-0
-            .col-md-2.col-5
-              img.pt-md-3.px-md-3(src='@/assets/curso/temas/tema5/icono2.svg' alt='Icono decorativo')
+            .col-md-2.col-4
+              img.pt-lg-3.px-lg-3.ps-md-3(src='@/assets/curso/temas/tema5/icono2.svg' alt='Icono decorativo')
             .col-md-9.py-3.text-white.pe-md-4
               h5 Manejo de olores 
               p.mb-0 Finalmente, se sugiere ver el material audiovisual «Control y manejo de olores en empresas» para reforzar los conocimientos adquiridos.
