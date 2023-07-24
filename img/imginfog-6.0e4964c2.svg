@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="295" height="222" viewBox="0 0 295 222">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_344985" data-name="Rectángulo 344985" width="221.792" height="182.399" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_985796" data-name="Grupo 985796" transform="translate(7175 -1202)">
+    <rect id="Rectángulo_344995" data-name="Rectángulo 344995" width="295" height="222" rx="13" transform="translate(-7175 1202)" fill="#a7bce6"/>
+    <g id="Grupo_984774" data-name="Grupo 984774" transform="translate(-7138 1222)">
+      <rect id="Rectángulo_344982" data-name="Rectángulo 344982" width="71.575" height="13.727" transform="translate(76.808 7.481)" fill="#1e4072"/>
+      <g id="Grupo_984732" data-name="Grupo 984732" transform="translate(0 0)">
+        <g id="Grupo_984731" data-name="Grupo 984731" clip-path="url(#clip-path)">
+          <path id="Trazado_729123" data-name="Trazado 729123" d="M192.262,97.975l-14.913-1.219c.03-.37,2.678-37.307-19.4-61.114-12.728-13.723-31.479-20.681-55.728-20.681h-.456c-34.288.123-58.514,13.738-72,40.467A103.691,103.691,0,0,0,19.342,97.317l-14.961.1c-.015-1.743.007-42.947,28.213-71.456C49.527,8.839,72.78.1,101.712,0h.52c28.632,0,51.1,8.6,66.777,25.565,26.534,28.715,23.4,70.637,23.254,72.41" transform="translate(12.002 0)" fill="#fff"/>
+          <path id="Trazado_729124" data-name="Trazado 729124" d="M63.872,114.089l-13.013-.883a5.067,5.067,0,0,1-4.713-5.4l5.308-78.271a5.066,5.066,0,0,1,5.4-4.713l13.013.883A27.351,27.351,0,0,1,95.3,54.845L93.009,88.651a27.351,27.351,0,0,1-29.137,25.438" transform="translate(126.426 67.997)" fill="#1e4072"/>
+          <rect id="Rectángulo_344983" data-name="Rectángulo 344983" width="87.971" height="12.282" transform="matrix(0.076, -0.997, 0.997, 0.076, 171.834, 181.121)" fill="#fff"/>
+          <path id="Trazado_729125" data-name="Trazado 729125" d="M31.494,114.156l13.013-.883a5.067,5.067,0,0,0,4.713-5.4L43.912,29.6a5.066,5.066,0,0,0-5.4-4.713L25.5,25.775A27.351,27.351,0,0,0,.064,54.912L2.356,88.718a27.351,27.351,0,0,0,29.137,25.438" transform="translate(0 68.18)" fill="#1e4072"/>
+          <rect id="Rectángulo_344984" data-name="Rectángulo 344984" width="12.282" height="87.971" transform="matrix(0.997, -0.076, 0.076, 0.997, 31.014, 94.589)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
