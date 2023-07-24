@@ -85,7 +85,7 @@
     .row.justify-content-center.mb-5
       .col-lg-8(data-aos="fade-down")
         .titulo-sexto.color-acento-contenido.mb-2
-          p.mb-0 #[b Tabla 3.] Ejemplo de registro de cadena de custodia
+          p.mb-0 #[b Tabla 4.] Ejemplo de registro de cadena de custodia
         figure
           img(src='@/assets/curso/temas/tema4/tabla.png' alt='Ejemplo de registro de cadena de custodia')
         figcaption.mt-2

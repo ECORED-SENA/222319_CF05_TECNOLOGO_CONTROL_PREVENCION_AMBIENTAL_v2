@@ -141,7 +141,7 @@
               h5.text-center.mb-0 760 mm de Hg
           .col-md-4.mb-4
             .caja.p-3
-              h5.text-center.mb-0 Milbares / Hetopascales 
+              h5.text-center.mb-0 Milibares / Hetopascales 
             .caja.p-3
               h5.text-center.mb-0 1013,25 mb /hpa
 
@@ -755,7 +755,7 @@
             .col-md-4.mb-4(data-aos="fade-right")
               img(src='@/assets/curso/temas/tema2/img11.png' alt='')
             .col-md-8.mb-4(data-aos="fade-left")
-              p Ahora bien, luego de las condiciones peviamete descritas, se procede a realizar las mediciones. El equipo debe estar colocado fijamente sobre un trípode a una altura de 1.2 mts a partir del nivel mínimo donde se encuentre la fuente instalada a una distancia de 1.5 mts de la fachada o cerramiento perimetral de la empresa, proyecto o fuente emisora de ruido.
+              p Ahora bien, luego de las condiciones previamente descritas, se procede a realizar las mediciones. El equipo debe estar colocado fijamente sobre un trípode a una altura de 1.2 mts a partir del nivel mínimo donde se encuentre la fuente instalada a una distancia de 1.5 mts de la fachada o cerramiento perimetral de la empresa, proyecto o fuente emisora de ruido.
               p Con el fin de prevenir posibles errores durante la medición el sonómetro debe estar orientado con la pantalla anti-viento hacia la dirección de la fuente específica, según sea el caso únicamente debe estar el técnico que realiza las mediciones, entre más personas que estén presentes en el sitio de medición y más aún cerca al sonómetro, se podría presentar fenómenos como el apantallamiento, que influye negativamente en la recepción de la información por parte del sonómetro.
 
           p.mb-4(data-aos="fade") La separación que debe haber entre el técnico (y las demás personas, si las hubiera en el momento de la medición) y el sonómetro, debe ser de por lo menos 0.5 m. (Universidad de Medellín, 2011), tal como se presenta en el siguiente gráfico.
@@ -1103,7 +1103,7 @@
     .row.justify-content-center.mb-5
       .col-lg-9(data-aos="fade-down")
         .titulo-sexto.color-acento-contenido.mb-2
-          p.mb-0 #[b Tabla 1.] Métodos para la medición de mezclas de sustancias, según el tipo de fuente
+          p.mb-0 #[b Tabla 3.] Métodos para la medición de mezclas de sustancias, según el tipo de fuente
         .tabla-a.tema5.color-secundario
           table
             caption 

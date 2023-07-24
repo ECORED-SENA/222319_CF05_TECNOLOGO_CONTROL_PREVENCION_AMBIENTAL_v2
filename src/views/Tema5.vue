@@ -62,7 +62,7 @@
     .row.justify-content-center.mb-5
       .col-lg-9(data-aos="fade-down")
         .titulo-sexto.color-acento-contenido.mb-2
-          p.mb-0 #[b Tabla 3.] Estándares máximos permisibles de niveles de emisión de ruido
+          p.mb-0 #[b Tabla 5.] Estándares máximos permisibles de niveles de emisión de ruido
         .tabla-a.tema5.color-secundario
           table
             caption 
@@ -146,7 +146,7 @@
           .row.mb-4
             .col-md-5.col-4
               img(src='@/assets/curso/temas/tema5/ico4.svg' alt='Icono decorativo')
-          p.mb-0 En los sectores y/o subsectores en que los estándares máximos permisibles de emisión de ruido de la Tabla 1, son superados a causa de fuentes de emisión naturales, sin que exista intervención del hombre, estos valores son considerados como los estándares máximos permisibles, como es el caso de cascadas, sonidos de animales en zonas o parques naturales.
+          p.mb-0 En los sectores y/o subsectores en que los estándares máximos permisibles de emisión de ruido de la Tabla, son superados a causa de fuentes de emisión naturales, sin que exista intervención del hombre, estos valores son considerados como los estándares máximos permisibles, como es el caso de cascadas, sonidos de animales en zonas o parques naturales.
 
 
     p.mb-4(data-aos="fade") Los resultados obtenidos en las mediciones de ruido ambiental deben ser utilizados para realizar el diagnóstico de los niveles de presión sonora en el ambiente. Los resultados podrán ser llevados a mapas de ruido con el fin de identificar zonas críticas y posibles fuentes de emisión de ruido, entre otros. Las mediciones de ruido ambiental deben hacerse de forma que los resultados obtenidos permitan su incorporación a mapas de ruido.
@@ -235,7 +235,7 @@
     .row.justify-content-center.mb-5
       .col-lg-9(data-aos="fade-down")
         .titulo-sexto.color-acento-contenido.mb-4
-          p.mb-0 #[b Tabla 4.] Niveles permisibles de inmisión
+          p.mb-0 #[b Tabla 6.] Niveles permisibles de inmisión
         h5.text-center.text-uppercase capitulo iii niveles permisibles de calidad del aire o inmisión de sustancias y mezclas de sustancias de olores ofensivos 
         .tabla-a.tema5.color-secundario
           table
@@ -290,7 +290,7 @@
     .row.justify-content-center.mb-5
       .col-lg-9(data-aos="fade-down")
         .titulo-sexto.color-acento-contenido.mb-4
-          p.mb-0 #[b Tabla 5.] Niveles permisibles de calidad de aire
+          p.mb-0 #[b Tabla 7.] Niveles permisibles de calidad de aire
         h5.text-center.text-uppercase capitulo iii niveles permisibles de calidad del aire o inmisión de sustancias y mezclas de sustancias de olores ofensivos 
         .tabla-a.tema5.color-secundario
           table
@@ -323,7 +323,7 @@
               tr
                 td.text-center 1400
                 td.text-center 1 hora
-        p.mb-0.p-2 * Cuando se utilicen muestreadores pasivos para la medición de las sustancias de la Tabla 5, el tiempo de exposición podrá estar entre 2 y 4 semanas.
+        p.mb-0.p-2 * Cuando se utilicen muestreadores pasivos para la medición de las sustancias de la Tabla, el tiempo de exposición podrá estar entre 2 y 4 semanas.
         figcaption.mt-2 
           p.mb-0 Tomado de Resolución 1543 de 2013, p.4 
 
